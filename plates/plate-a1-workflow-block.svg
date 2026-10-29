@@ -1,0 +1,976 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1180" width="1600" height="1180">
+<rect x="0" y="0" width="1600" height="1180" fill="#f4f1e8"/>
+<path d="M 20 0 V 1180 M 40 0 V 1180 M 60 0 V 1180 M 80 0 V 1180 M 120 0 V 1180 M 140 0 V 1180 M 160 0 V 1180 M 180 0 V 1180 M 220 0 V 1180 M 240 0 V 1180 M 260 0 V 1180 M 280 0 V 1180 M 320 0 V 1180 M 340 0 V 1180 M 360 0 V 1180 M 380 0 V 1180 M 420 0 V 1180 M 440 0 V 1180 M 460 0 V 1180 M 480 0 V 1180 M 520 0 V 1180 M 540 0 V 1180 M 560 0 V 1180 M 580 0 V 1180 M 620 0 V 1180 M 640 0 V 1180 M 660 0 V 1180 M 680 0 V 1180 M 720 0 V 1180 M 740 0 V 1180 M 760 0 V 1180 M 780 0 V 1180 M 820 0 V 1180 M 840 0 V 1180 M 860 0 V 1180 M 880 0 V 1180 M 920 0 V 1180 M 940 0 V 1180 M 960 0 V 1180 M 980 0 V 1180 M 1020 0 V 1180 M 1040 0 V 1180 M 1060 0 V 1180 M 1080 0 V 1180 M 1120 0 V 1180 M 1140 0 V 1180 M 1160 0 V 1180 M 1180 0 V 1180 M 1220 0 V 1180 M 1240 0 V 1180 M 1260 0 V 1180 M 1280 0 V 1180 M 1320 0 V 1180 M 1340 0 V 1180 M 1360 0 V 1180 M 1380 0 V 1180 M 1420 0 V 1180 M 1440 0 V 1180 M 1460 0 V 1180 M 1480 0 V 1180 M 1520 0 V 1180 M 1540 0 V 1180 M 1560 0 V 1180 M 1580 0 V 1180 M 0 20 H 1600 M 0 40 H 1600 M 0 60 H 1600 M 0 80 H 1600 M 0 120 H 1600 M 0 140 H 1600 M 0 160 H 1600 M 0 180 H 1600 M 0 220 H 1600 M 0 240 H 1600 M 0 260 H 1600 M 0 280 H 1600 M 0 320 H 1600 M 0 340 H 1600 M 0 360 H 1600 M 0 380 H 1600 M 0 420 H 1600 M 0 440 H 1600 M 0 460 H 1600 M 0 480 H 1600 M 0 520 H 1600 M 0 540 H 1600 M 0 560 H 1600 M 0 580 H 1600 M 0 620 H 1600 M 0 640 H 1600 M 0 660 H 1600 M 0 680 H 1600 M 0 720 H 1600 M 0 740 H 1600 M 0 760 H 1600 M 0 780 H 1600 M 0 820 H 1600 M 0 840 H 1600 M 0 860 H 1600 M 0 880 H 1600 M 0 920 H 1600 M 0 940 H 1600 M 0 960 H 1600 M 0 980 H 1600 M 0 1020 H 1600 M 0 1040 H 1600 M 0 1060 H 1600 M 0 1080 H 1600 M 0 1120 H 1600 M 0 1140 H 1600 M 0 1160 H 1600" stroke="#464e5c" stroke-width="0.5" stroke-opacity="0.11" fill="none"/>
+<path d="M 100 0 V 1180 M 200 0 V 1180 M 300 0 V 1180 M 400 0 V 1180 M 500 0 V 1180 M 600 0 V 1180 M 700 0 V 1180 M 800 0 V 1180 M 900 0 V 1180 M 1000 0 V 1180 M 1100 0 V 1180 M 1200 0 V 1180 M 1300 0 V 1180 M 1400 0 V 1180 M 1500 0 V 1180 M 0 100 H 1600 M 0 200 H 1600 M 0 300 H 1600 M 0 400 H 1600 M 0 500 H 1600 M 0 600 H 1600 M 0 700 H 1600 M 0 800 H 1600 M 0 900 H 1600 M 0 1000 H 1600 M 0 1100 H 1600" stroke="#464e5c" stroke-width="0.8" stroke-opacity="0.20" fill="none"/>
+<rect x="20" y="20" width="1560" height="1140" fill="none" stroke="#1c1b19" stroke-width="2.5"/>
+<rect x="28" y="28" width="1544" height="1124" fill="none" stroke="#1c1b19" stroke-width="1"/>
+<text x="48" y="56" font-family="Consolas, 'Courier New', monospace" font-size="12" letter-spacing="2.2" fill="#1c1b19">THE COLLECTIVE · PLATE A-1 · ATOMIC WORKFLOW BLOCK, 5 CONNECTORS &amp; OPERATOR COMMAND</text>
+<text x="48" y="84" font-family="'Segoe UI', Arial, sans-serif" font-size="21.0" font-weight="700" letter-spacing="0.9" fill="#1c1b19">THE WORKFLOW BLOCK — REUSABLE CAPABILITY, HUMAN COMMAND</text>
+<g transform="translate(1188, 48)">
+  <rect x="0" y="0" width="164" height="28" fill="#1c1b19" stroke="#1c1b19" stroke-width="1"/>
+  <text x="82" y="18" text-anchor="middle" font-family="Consolas, monospace" font-size="10.2" font-weight="700" letter-spacing="0.8" fill="#f4f1e8">OPERATOR · HARA HOST</text>
+  <rect x="172" y="0" width="192" height="28" fill="#f7f4ec" stroke="#b42318" stroke-width="1.4"/>
+  <text x="268" y="18" text-anchor="middle" font-family="Consolas, monospace" font-size="10.2" font-weight="700" letter-spacing="0.8" fill="#b42318">SLACK · MCP · A2A · CLI · API</text>
+</g>
+<line x1="48" y1="98" x2="1552" y2="98" stroke="#1c1b19" stroke-width="1.2"/>
+<rect x="48" y="112" width="1002" height="600" fill="#f7f4ec"/>
+<path d="M 68 112 V 712 M 88 112 V 712 M 108 112 V 712 M 128 112 V 712 M 168 112 V 712 M 188 112 V 712 M 208 112 V 712 M 228 112 V 712 M 268 112 V 712 M 288 112 V 712 M 308 112 V 712 M 328 112 V 712 M 368 112 V 712 M 388 112 V 712 M 408 112 V 712 M 428 112 V 712 M 468 112 V 712 M 488 112 V 712 M 508 112 V 712 M 528 112 V 712 M 568 112 V 712 M 588 112 V 712 M 608 112 V 712 M 628 112 V 712 M 668 112 V 712 M 688 112 V 712 M 708 112 V 712 M 728 112 V 712 M 768 112 V 712 M 788 112 V 712 M 808 112 V 712 M 828 112 V 712 M 868 112 V 712 M 888 112 V 712 M 908 112 V 712 M 928 112 V 712 M 968 112 V 712 M 988 112 V 712 M 1008 112 V 712 M 1028 112 V 712 M 48 132 H 1050 M 48 152 H 1050 M 48 172 H 1050 M 48 192 H 1050 M 48 232 H 1050 M 48 252 H 1050 M 48 272 H 1050 M 48 292 H 1050 M 48 332 H 1050 M 48 352 H 1050 M 48 372 H 1050 M 48 392 H 1050 M 48 432 H 1050 M 48 452 H 1050 M 48 472 H 1050 M 48 492 H 1050 M 48 532 H 1050 M 48 552 H 1050 M 48 572 H 1050 M 48 592 H 1050 M 48 632 H 1050 M 48 652 H 1050 M 48 672 H 1050 M 48 692 H 1050" stroke="#464e5c" stroke-width="0.5" stroke-opacity="0.11" fill="none"/>
+<path d="M 148 112 V 712 M 248 112 V 712 M 348 112 V 712 M 448 112 V 712 M 548 112 V 712 M 648 112 V 712 M 748 112 V 712 M 848 112 V 712 M 948 112 V 712 M 1048 112 V 712 M 48 212 H 1050 M 48 312 H 1050 M 48 412 H 1050 M 48 512 H 1050 M 48 612 H 1050" stroke="#464e5c" stroke-width="0.8" stroke-opacity="0.20" fill="none"/>
+<rect x="48" y="112" width="1002" height="600" fill="none" stroke="#1c1b19" stroke-width="1.2"/>
+<text x="64" y="135" font-family="Consolas, monospace" font-size="11.0" font-weight="700" letter-spacing="0.9" fill="#5c584f">A1 · INTERLOCKING WORKFLOW BLOCK WITH OPERATOR COMMAND, HARA HOST &amp; 4-PIN GOVERNANCE CHIP</text>
+<line x1="532.0" y1="376.0" x2="272.2" y2="526.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="532.0" y1="376.0" x2="791.8" y2="526.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="558.0" y1="391.0" x2="298.2" y2="541.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="506.0" y1="391.0" x2="765.8" y2="541.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="584.0" y1="406.0" x2="324.2" y2="556.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="480.0" y1="406.0" x2="739.8" y2="556.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="609.9" y1="421.0" x2="350.1" y2="571.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="454.1" y1="421.0" x2="713.9" y2="571.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="635.9" y1="436.0" x2="376.1" y2="586.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="428.1" y1="436.0" x2="687.9" y2="586.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="661.9" y1="451.0" x2="402.1" y2="601.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="402.1" y1="451.0" x2="661.9" y2="601.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="687.9" y1="466.0" x2="428.1" y2="616.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="376.1" y1="466.0" x2="635.9" y2="616.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="713.9" y1="481.0" x2="454.1" y2="631.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="350.1" y1="481.0" x2="609.9" y2="631.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="739.8" y1="496.0" x2="480.0" y2="646.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="324.2" y1="496.0" x2="584.0" y2="646.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="765.8" y1="511.0" x2="506.0" y2="661.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="298.2" y1="511.0" x2="558.0" y2="661.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="791.8" y1="526.0" x2="532.0" y2="676.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+<line x1="272.2" y1="526.0" x2="532.0" y2="676.0" stroke="#464e5c" stroke-width="0.6" stroke-opacity="0.22"/>
+    <g>
+      <polygon points="382.2,297.5 399.5,307.5 399.5,329.5 382.2,319.5" fill="#eecbc4" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="418.6,296.5 418.6,318.5 399.5,329.5 399.5,307.5" fill="#e0b5ad" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="401.2,286.5 418.6,296.5 399.5,307.5 382.2,297.5" fill="#f9ebe8" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="396.0,305.5 428.9,324.5 428.9,354.5 396.0,335.5" fill="#e5cd9f" stroke="#8a5a10" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="454.9,309.5 454.9,339.5 428.9,354.5 428.9,324.5" fill="#d4ba88" stroke="#8a5a10" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="422.0,290.5 454.9,309.5 428.9,324.5 396.0,305.5" fill="#f3dfb8" stroke="#8a5a10" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="425.5,322.5 430.7,325.5 430.7,363.5 425.5,360.5" fill="#363d48" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="463.6,306.5 463.6,344.5 430.7,363.5 430.7,325.5" fill="#282d35" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="458.4,303.5 463.6,306.5 430.7,325.5 425.5,322.5" fill="#464e5c" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="334.5,382.0 353.6,393.0 353.6,417.0 334.5,406.0" fill="#e5cd9f" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="374.4,381.0 374.4,405.0 353.6,417.0 353.6,393.0" fill="#d4ba88" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="355.3,370.0 374.4,381.0 353.6,393.0 334.5,382.0" fill="#f3dfb8" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="350.1,391.0 383.0,410.0 383.0,442.0 350.1,423.0" fill="#c5baa4" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="410.8,394.0 410.8,426.0 383.0,442.0 383.0,410.0" fill="#b4a890" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="377.8,375.0 410.8,394.0 383.0,410.0 350.1,391.0" fill="#d5cbb6" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="379.6,408.0 384.8,411.0 384.8,451.0 379.6,448.0" fill="#363d48" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="419.4,391.0 419.4,431.0 384.8,451.0 384.8,411.0" fill="#282d35" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="414.2,388.0 419.4,391.0 384.8,411.0 379.6,408.0" fill="#464e5c" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="655.0,279.0 675.8,291.0 675.8,315.0 655.0,303.0" fill="#e5cd9f" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="694.8,280.0 694.8,304.0 675.8,315.0 675.8,291.0" fill="#d4ba88" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="674.0,268.0 694.8,280.0 675.8,291.0 655.0,279.0" fill="#f3dfb8" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="611.7,296.0 639.4,312.0 639.4,344.0 611.7,328.0" fill="#c5baa4" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="679.2,289.0 679.2,321.0 639.4,344.0 639.4,312.0" fill="#b4a890" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="651.5,273.0 679.2,289.0 639.4,312.0 611.7,296.0" fill="#d5cbb6" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="592.6,299.0 627.3,319.0 627.3,359.0 592.6,339.0" fill="#363d48" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="642.9,310.0 642.9,350.0 627.3,359.0 627.3,319.0" fill="#282d35" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="608.2,290.0 642.9,310.0 627.3,319.0 592.6,299.0" fill="#464e5c" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="480.0,406.0 532.0,436.0 532.0,496.0 480.0,466.0" fill="#cfc5b0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="584.0,406.0 584.0,466.0 532.0,496.0 532.0,436.0" fill="#beb39d" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="532.0,376.0 584.0,406.0 532.0,436.0 480.0,406.0" fill="#dfd6c3" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="428.1,436.0 480.0,466.0 480.0,526.0 428.1,496.0" fill="#cfc5b0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="532.0,436.0 532.0,496.0 480.0,526.0 480.0,466.0" fill="#beb39d" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="480.0,406.0 532.0,436.0 480.0,466.0 428.1,436.0" fill="#dfd6c3" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="376.1,466.0 428.1,496.0 428.1,556.0 376.1,526.0" fill="#cfc5b0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="480.0,466.0 480.0,526.0 428.1,556.0 428.1,496.0" fill="#beb39d" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="428.1,436.0 480.0,466.0 428.1,496.0 376.1,466.0" fill="#dfd6c3" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="532.0,436.0 584.0,466.0 584.0,526.0 532.0,496.0" fill="#c5baa4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="635.9,436.0 635.9,496.0 584.0,526.0 584.0,466.0" fill="#b4a890" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="584.0,406.0 635.9,436.0 584.0,466.0 532.0,436.0" fill="#d5cbb6" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="480.0,466.0 532.0,496.0 532.0,556.0 480.0,526.0" fill="#c5baa4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="584.0,466.0 584.0,526.0 532.0,556.0 532.0,496.0" fill="#b4a890" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="532.0,436.0 584.0,466.0 532.0,496.0 480.0,466.0" fill="#d5cbb6" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="428.1,496.0 480.0,526.0 480.0,586.0 428.1,556.0" fill="#cfc5b0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="532.0,496.0 532.0,556.0 480.0,586.0 480.0,526.0" fill="#beb39d" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="480.0,466.0 532.0,496.0 480.0,526.0 428.1,496.0" fill="#dfd6c3" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="584.0,466.0 635.9,496.0 635.9,556.0 584.0,526.0" fill="#c5baa4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="687.9,466.0 687.9,526.0 635.9,556.0 635.9,496.0" fill="#b4a890" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="635.9,436.0 687.9,466.0 635.9,496.0 584.0,466.0" fill="#d5cbb6" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="532.0,496.0 584.0,526.0 584.0,586.0 532.0,556.0" fill="#c5baa4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="635.9,496.0 635.9,556.0 584.0,586.0 584.0,526.0" fill="#b4a890" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="584.0,466.0 635.9,496.0 584.0,526.0 532.0,496.0" fill="#d5cbb6" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="480.0,526.0 532.0,556.0 532.0,616.0 480.0,586.0" fill="#c5baa4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="584.0,526.0 584.0,586.0 532.0,616.0 532.0,556.0" fill="#b4a890" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="532.0,496.0 584.0,526.0 532.0,556.0 480.0,526.0" fill="#d5cbb6" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="480.0,346.0 532.0,376.0 532.0,436.0 480.0,406.0" fill="#ddd6c6" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="584.0,346.0 584.0,406.0 532.0,436.0 532.0,376.0" fill="#ccc4b2" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="532.0,316.0 584.0,346.0 532.0,376.0 480.0,346.0" fill="#ede7d9" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="428.1,376.0 480.0,406.0 480.0,466.0 428.1,436.0" fill="#e5cd9f" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="532.0,376.0 532.0,436.0 480.0,466.0 480.0,406.0" fill="#d4ba88" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="480.0,346.0 532.0,376.0 480.0,406.0 428.1,376.0" fill="#f3dfb8" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="376.1,406.0 428.1,436.0 428.1,496.0 376.1,466.0" fill="#ddd6c6" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="480.0,406.0 480.0,466.0 428.1,496.0 428.1,436.0" fill="#ccc4b2" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="428.1,376.0 480.0,406.0 428.1,436.0 376.1,406.0" fill="#ede7d9" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="532.0,376.0 584.0,406.0 584.0,466.0 532.0,436.0" fill="#d6cebe" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="635.9,376.0 635.9,436.0 584.0,466.0 584.0,406.0" fill="#c5bcab" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="584.0,346.0 635.9,376.0 584.0,406.0 532.0,376.0" fill="#e6dfd0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="480.0,406.0 532.0,436.0 532.0,496.0 480.0,466.0" fill="#e5cd9f" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="584.0,406.0 584.0,466.0 532.0,496.0 532.0,436.0" fill="#d4ba88" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="532.0,376.0 584.0,406.0 532.0,436.0 480.0,406.0" fill="#f3dfb8" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="428.1,436.0 480.0,466.0 480.0,526.0 428.1,496.0" fill="#e5cd9f" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="532.0,436.0 532.0,496.0 480.0,526.0 480.0,466.0" fill="#d4ba88" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="480.0,406.0 532.0,436.0 480.0,466.0 428.1,436.0" fill="#f3dfb8" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="584.0,406.0 635.9,436.0 635.9,496.0 584.0,466.0" fill="#d4cdba" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="687.9,406.0 687.9,466.0 635.9,496.0 635.9,436.0" fill="#c3bba7" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="635.9,376.0 687.9,406.0 635.9,436.0 584.0,406.0" fill="#e4decb" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="532.0,436.0 584.0,466.0 584.0,526.0 532.0,496.0" fill="#e5cd9f" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="635.9,436.0 635.9,496.0 584.0,526.0 584.0,466.0" fill="#d4ba88" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="584.0,406.0 635.9,436.0 584.0,466.0 532.0,436.0" fill="#f3dfb8" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="480.0,466.0 532.0,496.0 532.0,556.0 480.0,526.0" fill="#e6e0d0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="584.0,466.0 584.0,526.0 532.0,556.0 532.0,496.0" fill="#d5cebc" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="532.0,436.0 584.0,466.0 532.0,496.0 480.0,466.0" fill="#f5f1e6" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="480.0,286.0 532.0,316.0 532.0,376.0 480.0,346.0" fill="#e8e2d4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="584.0,286.0 584.0,346.0 532.0,376.0 532.0,316.0" fill="#d8d1c0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="532.0,256.0 584.0,286.0 532.0,316.0 480.0,286.0" fill="#f7f4ec" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="428.1,316.0 480.0,346.0 480.0,406.0 428.1,376.0" fill="#e8e2d4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="532.0,316.0 532.0,376.0 480.0,406.0 480.0,346.0" fill="#d8d1c0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="480.0,286.0 532.0,316.0 480.0,346.0 428.1,316.0" fill="#f7f4ec" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="376.1,346.0 428.1,376.0 428.1,436.0 376.1,406.0" fill="#e8e2d4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="480.0,346.0 480.0,406.0 428.1,436.0 428.1,376.0" fill="#d8d1c0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="428.1,316.0 480.0,346.0 428.1,376.0 376.1,346.0" fill="#f7f4ec" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="532.0,316.0 584.0,346.0 584.0,406.0 532.0,376.0" fill="#d6cebe" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="635.9,316.0 635.9,376.0 584.0,406.0 584.0,346.0" fill="#c5bcab" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="584.0,286.0 635.9,316.0 584.0,346.0 532.0,316.0" fill="#e6dfd0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="480.0,346.0 532.0,376.0 532.0,436.0 480.0,406.0" fill="#e5cd9f" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="584.0,346.0 584.0,406.0 532.0,436.0 532.0,376.0" fill="#d4ba88" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="532.0,316.0 584.0,346.0 532.0,376.0 480.0,346.0" fill="#f3dfb8" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="428.1,376.0 480.0,406.0 480.0,466.0 428.1,436.0" fill="#e8e2d4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="532.0,376.0 532.0,436.0 480.0,466.0 480.0,406.0" fill="#d8d1c0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="480.0,346.0 532.0,376.0 480.0,406.0 428.1,376.0" fill="#f7f4ec" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="480.0,451.0 532.0,481.0 532.0,496.0 480.0,466.0" fill="#ead2cd" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <polygon points="687.9,391.0 687.9,406.0 532.0,496.0 532.0,481.0" fill="#dcbdb7" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <polygon points="635.9,361.0 687.9,391.0 532.0,481.0 480.0,451.0" fill="#f5e6e3" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <line x1="584.0" y1="391.0" x2="635.9" y2="421.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="635.9" y1="421.0" x2="635.9" y2="436.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="532.0" y1="421.0" x2="584.0" y2="451.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="584.0" y1="451.0" x2="584.0" y2="466.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+    </g>
+    <g>
+      <polygon points="480.0,436.0 532.0,466.0 532.0,481.0 480.0,451.0" fill="#ead2cd" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <polygon points="687.9,376.0 687.9,391.0 532.0,481.0 532.0,466.0" fill="#dcbdb7" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <polygon points="635.9,346.0 687.9,376.0 532.0,466.0 480.0,436.0" fill="#f5e6e3" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <line x1="584.0" y1="376.0" x2="635.9" y2="406.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="635.9" y1="406.0" x2="635.9" y2="421.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="532.0" y1="406.0" x2="584.0" y2="436.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="584.0" y1="436.0" x2="584.0" y2="451.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+    </g>
+    <g>
+      <polygon points="480.0,421.0 532.0,451.0 532.0,466.0 480.0,436.0" fill="#ead2cd" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <polygon points="687.9,361.0 687.9,376.0 532.0,466.0 532.0,451.0" fill="#dcbdb7" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <polygon points="635.9,331.0 687.9,361.0 532.0,451.0 480.0,421.0" fill="#f5e6e3" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <line x1="584.0" y1="361.0" x2="635.9" y2="391.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="635.9" y1="391.0" x2="635.9" y2="406.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="532.0" y1="391.0" x2="584.0" y2="421.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="584.0" y1="421.0" x2="584.0" y2="436.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+    </g>
+    <g>
+      <polygon points="480.0,406.0 532.0,436.0 532.0,451.0 480.0,421.0" fill="#eecbc4" stroke="#b42318" stroke-width="1.45" stroke-linejoin="round"/>
+      <polygon points="687.9,346.0 687.9,361.0 532.0,451.0 532.0,436.0" fill="#e0b5ad" stroke="#b42318" stroke-width="1.45" stroke-linejoin="round"/>
+      <polygon points="635.9,316.0 687.9,346.0 532.0,436.0 480.0,406.0" fill="#f9ebe8" stroke="#b42318" stroke-width="1.45" stroke-linejoin="round"/>
+      <line x1="584.0" y1="346.0" x2="635.9" y2="376.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="635.9" y1="376.0" x2="635.9" y2="391.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="532.0" y1="376.0" x2="584.0" y2="406.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="584.0" y1="406.0" x2="584.0" y2="421.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+    </g>
+<line x1="532.0" y1="256.0" x2="480.0" y2="286.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="532.0" y1="256.0" x2="584.0" y2="286.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="480.0" y1="286.0" x2="428.1" y2="316.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="428.1" y1="316.0" x2="376.1" y2="346.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="376.1" y1="346.0" x2="428.1" y2="376.0" stroke="#1c1b19" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="584.0" y1="286.0" x2="532.0" y2="316.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="584.0" y1="286.0" x2="635.9" y2="316.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="532.0" y1="316.0" x2="480.0" y2="346.0" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="532.0" y1="316.0" x2="584.0" y2="346.0" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="480.0" y1="346.0" x2="532.0" y2="376.0" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="428.1" y1="376.0" x2="480.0" y2="406.0" stroke="#1c1b19" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="635.9" y1="316.0" x2="584.0" y2="346.0" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="687.9" y1="346.0" x2="635.9" y2="376.0" stroke="#b42318" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="635.9" y1="316.0" x2="687.9" y2="346.0" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="584.0" y1="346.0" x2="532.0" y2="376.0" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="635.9" y1="376.0" x2="584.0" y2="406.0" stroke="#b42318" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="532.0" y1="376.0" x2="480.0" y2="406.0" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="584.0" y1="406.0" x2="532.0" y2="436.0" stroke="#b42318" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="480.0" y1="406.0" x2="532.0" y2="436.0" stroke="#b42318" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="376.1" y1="526.0" x2="376.1" y2="466.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="376.1" y1="526.0" x2="428.1" y2="556.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="376.1" y1="466.0" x2="376.1" y2="406.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="376.1" y1="466.0" x2="428.1" y2="496.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="376.1" y1="406.0" x2="376.1" y2="346.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="376.1" y1="406.0" x2="428.1" y2="436.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="428.1" y1="556.0" x2="480.0" y2="586.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="428.1" y1="496.0" x2="428.1" y2="436.0" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="428.1" y1="496.0" x2="480.0" y2="526.0" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="428.1" y1="436.0" x2="480.0" y2="466.0" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="480.0" y1="586.0" x2="480.0" y2="526.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="532.0" y1="616.0" x2="532.0" y2="556.0" stroke="#1c1b19" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="480.0" y1="586.0" x2="532.0" y2="616.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="480.0" y1="526.0" x2="480.0" y2="466.0" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="532.0" y1="556.0" x2="532.0" y2="496.0" stroke="#1c1b19" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="480.0" y1="526.0" x2="532.0" y2="556.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="480.0" y1="466.0" x2="480.0" y2="406.0" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="532.0" y1="496.0" x2="532.0" y2="436.0" stroke="#b42318" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="480.0" y1="466.0" x2="532.0" y2="496.0" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="687.9" y1="526.0" x2="687.9" y2="466.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="687.9" y1="526.0" x2="635.9" y2="556.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="687.9" y1="466.0" x2="687.9" y2="406.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="687.9" y1="466.0" x2="635.9" y2="496.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="687.9" y1="406.0" x2="687.9" y2="346.0" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="687.9" y1="406.0" x2="635.9" y2="436.0" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="635.9" y1="556.0" x2="584.0" y2="586.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="635.9" y1="496.0" x2="635.9" y2="436.0" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="635.9" y1="496.0" x2="584.0" y2="526.0" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="635.9" y1="436.0" x2="584.0" y2="466.0" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="584.0" y1="586.0" x2="532.0" y2="616.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="584.0" y1="526.0" x2="584.0" y2="466.0" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="584.0" y1="526.0" x2="532.0" y2="556.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="584.0" y1="466.0" x2="532.0" y2="496.0" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+    <g>
+      <polygon points="371.8,426.5 408.2,447.5 408.2,489.5 371.8,468.5" fill="#363d48" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="420.3,440.5 420.3,482.5 408.2,489.5 408.2,447.5" fill="#282d35" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="383.9,419.5 420.3,440.5 408.2,447.5 371.8,426.5" fill="#464e5c" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="354.5,448.5 380.4,463.5 380.4,493.5 354.5,478.5" fill="#c5baa4" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="403.0,450.5 403.0,480.5 380.4,493.5 380.4,463.5" fill="#b4a890" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="377.0,435.5 403.0,450.5 380.4,463.5 354.5,448.5" fill="#d5cbb6" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="343.2,465.0 360.5,475.0 360.5,495.0 343.2,485.0" fill="#e5cd9f" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="376.1,466.0 376.1,486.0 360.5,495.0 360.5,475.0" fill="#d4ba88" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="358.8,456.0 376.1,466.0 360.5,475.0 343.2,465.0" fill="#f3dfb8" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="591.8,530.5 603.9,537.5 603.9,579.5 591.8,572.5" fill="#363d48" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="640.3,516.5 640.3,558.5 603.9,579.5 603.9,537.5" fill="#282d35" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="628.1,509.5 640.3,516.5 603.9,537.5 591.8,530.5" fill="#464e5c" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="609.1,540.5 631.6,553.5 631.6,583.5 609.1,570.5" fill="#c5baa4" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="657.6,538.5 657.6,568.5 631.6,583.5 631.6,553.5" fill="#b4a890" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="635.1,525.5 657.6,538.5 631.6,553.5 609.1,540.5" fill="#d5cbb6" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="635.9,556.0 651.5,565.0 651.5,585.0 635.9,576.0" fill="#e5cd9f" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="668.8,555.0 668.8,575.0 651.5,585.0 651.5,565.0" fill="#d4ba88" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="653.2,546.0 668.8,555.0 651.5,565.0 635.9,556.0" fill="#f3dfb8" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      
+    </g>
+<text x="525.1" y="354.0" text-anchor="middle" font-family="Consolas, monospace" font-size="8.5" font-weight="700" fill="#6b4206">01 HARA</text>
+<text x="454.1" y="484.0" text-anchor="middle" font-family="Consolas, monospace" font-size="8.0" font-weight="700" fill="#6b4206">01 HARA</text>
+<text x="609.9" y="484.0" text-anchor="middle" font-family="Consolas, monospace" font-size="8.0" font-weight="700" fill="#6b4206">01 HARA</text>
+<text x="467.0" y="326.5" text-anchor="middle" font-family="Consolas, monospace" font-size="8.0" font-weight="700" fill="#1c1b19">SURFACES</text>
+<text x="577.0" y="323.0" text-anchor="middle" font-family="Consolas, monospace" font-size="7.8" font-weight="700" fill="#1c1b19">CONNECT</text>
+<text x="575.3" y="384.0" text-anchor="middle" font-family="Consolas, monospace" font-size="8.2" font-weight="700" fill="#b42318">4-PIN CHIP</text>
+<text x="506.0" y="503.0" text-anchor="middle" font-family="Consolas, monospace" font-size="8.0" font-weight="700" fill="#1c1b19">EXECUTE</text>
+<text x="428.1" y="518.0" text-anchor="middle" font-family="Consolas, monospace" font-size="8.0" font-weight="700" fill="#1c1b19">MEMORY</text>
+<text x="558.0" y="563.0" text-anchor="middle" font-family="Consolas, monospace" font-size="8.0" font-weight="700" fill="#1c1b19">STATE SPINE</text>
+<text x="661.9" y="443.0" text-anchor="middle" font-family="Consolas, monospace" font-size="8.0" font-weight="700" fill="#1c1b19">MONITOR</text>
+<line x1="268" y1="258" x2="391.7" y2="303.0" stroke="#b42318" stroke-width="1.8" stroke-dasharray="4 2"/>
+<polygon points="391.7,303.0 384.5,303.7 386.7,297.8" fill="#b42318"/>
+<rect x="62" y="232" width="206" height="52" fill="#f3dfb8" fill-opacity="0.45" stroke="#b42318" stroke-width="1.6"/>
+<rect x="62" y="232" width="206" height="18" fill="#b42318"/>
+<text x="165.0" y="245" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" font-weight="700" fill="#f7f4ec">PEOPLE · SLACKLINE</text>
+<text x="165.0" y="264" text-anchor="middle" font-family="Consolas, monospace" font-size="9.3" font-weight="700" fill="#1c1b19">Human Messaging &amp; Approvals</text>
+<text x="165.0" y="278" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="9.1" fill="#5c584f">Slack, Teams &amp; operator gates</text>
+<line x1="268" y1="370" x2="344.9" y2="388.0" stroke="#8a5a10" stroke-width="1.8" stroke-dasharray="4 2"/>
+<polygon points="344.9,388.0 337.9,389.6 339.3,383.5" fill="#8a5a10"/>
+<rect x="62" y="344" width="206" height="52" fill="#f3dfb8" fill-opacity="0.45" stroke="#8a5a10" stroke-width="1.6"/>
+<rect x="62" y="344" width="206" height="18" fill="#8a5a10"/>
+<text x="165.0" y="357" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" font-weight="700" fill="#f7f4ec">TOOLS · MCP BUS</text>
+<text x="165.0" y="376" text-anchor="middle" font-family="Consolas, monospace" font-size="9.3" font-weight="700" fill="#1c1b19">Scoped Tools &amp; Context</text>
+<text x="165.0" y="390" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="9.1" fill="#5c584f">Governed context &amp; tool mounts</text>
+<line x1="268" y1="540" x2="351.9" y2="480.0" stroke="#8a5a10" stroke-width="1.8" stroke-dasharray="4 2"/>
+<polygon points="351.9,480.0 348.4,486.3 344.8,481.2" fill="#8a5a10"/>
+<rect x="62" y="514" width="206" height="52" fill="#f3dfb8" fill-opacity="0.45" stroke="#8a5a10" stroke-width="1.6"/>
+<rect x="62" y="514" width="206" height="18" fill="#8a5a10"/>
+<text x="165.0" y="527" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" font-weight="700" fill="#f7f4ec">LOCAL · CLI PIPE</text>
+<text x="165.0" y="546" text-anchor="middle" font-family="Consolas, monospace" font-size="9.3" font-weight="700" fill="#1c1b19">Deterministic Execution</text>
+<text x="165.0" y="560" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="9.1" fill="#5c584f">Local scripts, binaries &amp; repos</text>
+<line x1="760" y1="182" x2="684.4" y2="286.0" stroke="#8a5a10" stroke-width="1.8" stroke-dasharray="4 2"/>
+<polygon points="684.4,286.0 685.7,278.9 690.7,282.6" fill="#8a5a10"/>
+<rect x="760" y="156" width="220" height="52" fill="#f3dfb8" fill-opacity="0.45" stroke="#8a5a10" stroke-width="1.6"/>
+<rect x="760" y="156" width="220" height="18" fill="#8a5a10"/>
+<text x="870.0" y="169" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" font-weight="700" fill="#f7f4ec">AGENTS · A2A WIRE</text>
+<text x="870.0" y="188" text-anchor="middle" font-family="Consolas, monospace" font-size="9.3" font-weight="700" fill="#1c1b19">Block-to-Block Coordination</text>
+<text x="870.0" y="202" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="9.1" fill="#5c584f">Structured cross-block handoffs</text>
+<line x1="760" y1="540" x2="660.2" y2="570.0" stroke="#8a5a10" stroke-width="1.8" stroke-dasharray="4 2"/>
+<polygon points="660.2,570.0 665.5,565.1 667.3,571.1" fill="#8a5a10"/>
+<rect x="760" y="514" width="220" height="52" fill="#f3dfb8" fill-opacity="0.45" stroke="#8a5a10" stroke-width="1.6"/>
+<rect x="760" y="514" width="220" height="18" fill="#8a5a10"/>
+<text x="870.0" y="527" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" font-weight="700" fill="#f7f4ec">SYSTEMS · API SPINE</text>
+<text x="870.0" y="546" text-anchor="middle" font-family="Consolas, monospace" font-size="9.3" font-weight="700" fill="#1c1b19">Business Systems of Record</text>
+<text x="870.0" y="560" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="9.1" fill="#5c584f">ERP, CRM, WMS, MES &amp; databases</text>
+<polyline points="544.1,339.0 465,192 440,192" fill="none" stroke="#b42318" stroke-width="1.25"/>
+<circle cx="544.1" cy="339.0" r="3" fill="#b42318"/>
+
+    <g>
+      <circle cx="440" cy="192" r="11" fill="#f7f4ec" stroke="#b42318" stroke-width="1.6"/>
+      <text x="440" y="196" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11.5" font-weight="700" fill="#b42318">1</text>
+    </g>
+<text x="424" y="196" text-anchor="end" font-family="Consolas, monospace" font-size="10.0" font-weight="700" fill="#1c1b19">OPERATOR · HARA HOST</text>
+<polyline points="558.0,587.0 645,608 670,608" fill="none" stroke="#b42318" stroke-width="1.25"/>
+<circle cx="558.0" cy="587.0" r="3" fill="#b42318"/>
+
+    <g>
+      <circle cx="670" cy="608" r="11" fill="#f7f4ec" stroke="#b42318" stroke-width="1.6"/>
+      <text x="670" y="612" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11.5" font-weight="700" fill="#b42318">2</text>
+    </g>
+<text x="686" y="612" text-anchor="start" font-family="Consolas, monospace" font-size="10.0" font-weight="700" fill="#1c1b19">STATE &amp; JOURNAL SPINE</text>
+<polyline points="506.0,531.0 455,628 430,628" fill="none" stroke="#b42318" stroke-width="1.25"/>
+<circle cx="506.0" cy="531.0" r="3" fill="#b42318"/>
+
+    <g>
+      <circle cx="430" cy="628" r="11" fill="#f7f4ec" stroke="#b42318" stroke-width="1.6"/>
+      <text x="430" y="632" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11.5" font-weight="700" fill="#b42318">3</text>
+    </g>
+<text x="414" y="632" text-anchor="end" font-family="Consolas, monospace" font-size="10.0" font-weight="700" fill="#1c1b19">DETERMINISTIC EXECUTION</text>
+<polyline points="661.9,469.0 725,456 750,456" fill="none" stroke="#b42318" stroke-width="1.25"/>
+<circle cx="661.9" cy="469.0" r="3" fill="#b42318"/>
+
+    <g>
+      <circle cx="750" cy="456" r="11" fill="#f7f4ec" stroke="#b42318" stroke-width="1.6"/>
+      <text x="750" y="460" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11.5" font-weight="700" fill="#b42318">4</text>
+    </g>
+<text x="766" y="460" text-anchor="start" font-family="Consolas, monospace" font-size="10.0" font-weight="700" fill="#1c1b19">RUNTIME MONITOR</text>
+<polyline points="402.1,451.0 320,464 295,464" fill="none" stroke="#b42318" stroke-width="1.25"/>
+<circle cx="402.1" cy="451.0" r="3" fill="#b42318"/>
+
+    <g>
+      <circle cx="295" cy="464" r="11" fill="#f7f4ec" stroke="#b42318" stroke-width="1.6"/>
+      <text x="295" y="468" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11.5" font-weight="700" fill="#b42318">5</text>
+    </g>
+<text x="279" y="468" text-anchor="end" font-family="Consolas, monospace" font-size="10.0" font-weight="700" fill="#1c1b19">CONTRACT &amp; MANIFEST</text>
+<polyline points="603.0,315.0 505,156 480,156" fill="none" stroke="#b42318" stroke-width="1.25"/>
+<circle cx="603.0" cy="315.0" r="3" fill="#b42318"/>
+
+    <g>
+      <circle cx="480" cy="156" r="11" fill="#f7f4ec" stroke="#b42318" stroke-width="1.6"/>
+      <text x="480" y="160" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11.5" font-weight="700" fill="#b42318">6</text>
+    </g>
+<text x="464" y="160" text-anchor="end" font-family="Consolas, monospace" font-size="10.0" font-weight="700" fill="#1c1b19">CROSS-BLOCK HANDOFFS</text>
+<polyline points="428.1,542.0 320,600 295,600" fill="none" stroke="#b42318" stroke-width="1.25"/>
+<circle cx="428.1" cy="542.0" r="3" fill="#b42318"/>
+
+    <g>
+      <circle cx="295" cy="600" r="11" fill="#f7f4ec" stroke="#b42318" stroke-width="1.6"/>
+      <text x="295" y="604" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11.5" font-weight="700" fill="#b42318">7</text>
+    </g>
+<text x="279" y="604" text-anchor="end" font-family="Consolas, monospace" font-size="10.0" font-weight="700" fill="#1c1b19">PRIVATE MEMORY BOUNDARY</text>
+<polyline points="501.7,303.5 450,226 425,226" fill="none" stroke="#b42318" stroke-width="1.25"/>
+<circle cx="501.7" cy="303.5" r="3" fill="#b42318"/>
+
+    <g>
+      <circle cx="425" cy="226" r="11" fill="#f7f4ec" stroke="#b42318" stroke-width="1.6"/>
+      <text x="425" y="230" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11.5" font-weight="700" fill="#b42318">8</text>
+    </g>
+<text x="409" y="230" text-anchor="end" font-family="Consolas, monospace" font-size="10.0" font-weight="700" fill="#1c1b19">OPERATOR GLASS &amp; SOP</text>
+<polyline points="609.9,443.5 725,398 750,398" fill="none" stroke="#b42318" stroke-width="1.25"/>
+<circle cx="609.9" cy="443.5" r="3" fill="#b42318"/>
+
+    <g>
+      <circle cx="750" cy="398" r="11" fill="#f7f4ec" stroke="#b42318" stroke-width="1.6"/>
+      <text x="750" y="402" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11.5" font-weight="700" fill="#b42318">9</text>
+    </g>
+<text x="766" y="402" text-anchor="start" font-family="Consolas, monospace" font-size="10.0" font-weight="700" fill="#1c1b19">PIN 1 · CONTROLS</text>
+<polyline points="609.9,428.5 725,362 750,362" fill="none" stroke="#b42318" stroke-width="1.25"/>
+<circle cx="609.9" cy="428.5" r="3" fill="#b42318"/>
+
+    <g>
+      <circle cx="750" cy="362" r="11" fill="#f7f4ec" stroke="#b42318" stroke-width="1.6"/>
+      <text x="750" y="366" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11.5" font-weight="700" fill="#b42318">10</text>
+    </g>
+<text x="766" y="366" text-anchor="start" font-family="Consolas, monospace" font-size="10.0" font-weight="700" fill="#1c1b19">PIN 2 · INDEPENDENT REVIEW</text>
+<polyline points="609.9,413.5 725,326 750,326" fill="none" stroke="#b42318" stroke-width="1.25"/>
+<circle cx="609.9" cy="413.5" r="3" fill="#b42318"/>
+
+    <g>
+      <circle cx="750" cy="326" r="11" fill="#f7f4ec" stroke="#b42318" stroke-width="1.6"/>
+      <text x="750" y="330" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11.5" font-weight="700" fill="#b42318">11</text>
+    </g>
+<text x="766" y="330" text-anchor="start" font-family="Consolas, monospace" font-size="10.0" font-weight="700" fill="#1c1b19">PIN 3 · AUDIT EVIDENCE</text>
+<polyline points="609.9,398.5 725,290 750,290" fill="none" stroke="#b42318" stroke-width="1.25"/>
+<circle cx="609.9" cy="398.5" r="3" fill="#b42318"/>
+
+    <g>
+      <circle cx="750" cy="290" r="11" fill="#f7f4ec" stroke="#b42318" stroke-width="1.6"/>
+      <text x="750" y="294" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11.5" font-weight="700" fill="#b42318">12</text>
+    </g>
+<text x="766" y="294" text-anchor="start" font-family="Consolas, monospace" font-size="10.0" font-weight="700" fill="#1c1b19">PIN 4 · HUMAN APPROVAL</text>
+<rect x="118" y="670" width="860" height="28" fill="#f4f1e8" stroke="#b42318" stroke-width="1.2"/>
+<text x="548" y="688" text-anchor="middle" font-family="Consolas, monospace" font-size="10.0" font-weight="700" fill="#b42318">BOUNDED CAPABILITY UNIT · OPERATOR IN COMMAND (HARA HOST) · CONNECTS PEOPLE, AGENTS, TOOLS &amp; SYSTEMS</text>
+<rect x="1064" y="112" width="488" height="600" fill="#f7f4ec" stroke="#1c1b19" stroke-width="1.2"/>
+<text x="1080" y="136" font-family="Consolas, monospace" font-size="11.2" font-weight="700" letter-spacing="0.9" fill="#1c1b19">WHAT EVERY WORKFLOW BLOCK DOES (4 CORE CAPABILITIES)</text>
+<line x1="1076" y1="145" x2="1540" y2="145" stroke="#1c1b19" stroke-width="1"/>
+<rect x="1078" y="160" width="460" height="82" rx="3" fill="#f9f3e3" stroke="#8a5a10" stroke-width="1.3"/>
+<rect x="1078" y="160" width="460" height="20" rx="2" fill="#8a5a10"/>
+<text x="1088" y="174" font-family="Consolas, monospace" font-size="9.8" font-weight="700" fill="#f7f4ec">I · EXECUTE DEFINED WORK</text>
+<text x="1528" y="174" text-anchor="end" font-family="Consolas, monospace" font-size="8.4" font-weight="700" fill="#f3dfb8">01 HARA · 03 Execute · 04 Monitor</text>
+<text x="1090" y="202" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#1c1b19">Runs deterministic code and checks on the hot path while keeping</text>
+<text x="1090" y="222" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#5c584f">a named human in command of rules and exceptions.</text>
+<rect x="1078" y="250" width="460" height="82" rx="3" fill="#f4f1e8" stroke="#1c1b19" stroke-width="1.3"/>
+<rect x="1078" y="250" width="460" height="20" rx="2" fill="#1c1b19"/>
+<text x="1088" y="264" font-family="Consolas, monospace" font-size="9.8" font-weight="700" fill="#f7f4ec">II · PRESERVE STATE &amp; EVIDENCE</text>
+<text x="1528" y="264" text-anchor="end" font-family="Consolas, monospace" font-size="8.4" font-weight="700" fill="#f3dfb8">02 State Spine · 07 Private Memory</text>
+<text x="1090" y="292" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#1c1b19">Records durable transaction state, lineage receipts, and scoped</text>
+<text x="1090" y="312" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#5c584f">operating memory without leaking private data.</text>
+<rect x="1078" y="340" width="460" height="82" rx="3" fill="#f4f1e8" stroke="#1c1b19" stroke-width="1.3"/>
+<rect x="1078" y="340" width="460" height="20" rx="2" fill="#1c1b19"/>
+<text x="1088" y="354" font-family="Consolas, monospace" font-size="9.8" font-weight="700" fill="#f7f4ec">III · CONNECT PEOPLE &amp; SYSTEMS</text>
+<text x="1528" y="354" text-anchor="end" font-family="Consolas, monospace" font-size="8.4" font-weight="700" fill="#f3dfb8">05 Contract · 06 Connect · 08 Surfaces</text>
+<text x="1090" y="382" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#1c1b19">Links operator workspaces, living SOPs, peer blocks, and</text>
+<text x="1090" y="402" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#5c584f">systems of record through governed interfaces.</text>
+<rect x="1078" y="430" width="460" height="82" rx="3" fill="#f9ebe8" stroke="#b42318" stroke-width="1.3"/>
+<rect x="1078" y="430" width="460" height="20" rx="2" fill="#b42318"/>
+<text x="1088" y="444" font-family="Consolas, monospace" font-size="9.8" font-weight="700" fill="#f7f4ec">IV · ENFORCE APPROVED BOUNDARIES</text>
+<text x="1528" y="444" text-anchor="end" font-family="Consolas, monospace" font-size="8.4" font-weight="700" fill="#f3dfb8">09 Controls · 10 Review · 11 Evidence · 12 Gate</text>
+<text x="1090" y="472" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#1c1b19">Embeds policy boundaries, independent verification, audit receipts, and</text>
+<text x="1090" y="492" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#5c584f">named human approval into every block.</text>
+<rect x="1078" y="524" width="460" height="174" fill="#f4f1e8" stroke="#1c1b19" stroke-width="1.2"/>
+<text x="1090" y="544" font-family="Consolas, monospace" font-size="10.5" font-weight="700" fill="#b42318">5 SELECTIVE INTERFACES (SLACKLINE · A2A · MCP · CLI · API)</text>
+<line x1="1088" y1="551" x2="1526" y2="551" stroke="#1c1b19" stroke-width="0.8"/>
+<text x="1090" y="569" font-family="Consolas, monospace" font-size="9.6" font-weight="700" fill="#b42318">1. PEOPLE (SLACKLINE):</text>
+<text x="1296" y="569" font-family="'Segoe UI', Arial, sans-serif" font-size="10.0" fill="#1c1b19">Operator messaging, alerts &amp; approvals.</text>
+<text x="1090" y="588" font-family="Consolas, monospace" font-size="9.6" font-weight="700" fill="#1c1b19">2. AGENTS (A2A):</text>
+<text x="1296" y="588" font-family="'Segoe UI', Arial, sans-serif" font-size="10.0" fill="#1c1b19">Block-to-block &amp; agent crew coordination.</text>
+<text x="1090" y="607" font-family="Consolas, monospace" font-size="9.6" font-weight="700" fill="#1c1b19">3. TOOLS (MCP):</text>
+<text x="1296" y="607" font-family="'Segoe UI', Arial, sans-serif" font-size="10.0" fill="#1c1b19">Scoped tools &amp; context connectors.</text>
+<text x="1090" y="626" font-family="Consolas, monospace" font-size="9.6" font-weight="700" fill="#1c1b19">4. LOCAL EXECUTION (CLI):</text>
+<text x="1296" y="626" font-family="'Segoe UI', Arial, sans-serif" font-size="10.0" fill="#1c1b19">Deterministic local code &amp; scripts.</text>
+<text x="1090" y="645" font-family="Consolas, monospace" font-size="9.6" font-weight="700" fill="#1c1b19">5. BUSINESS SYSTEMS (API):</text>
+<text x="1296" y="645" font-family="'Segoe UI', Arial, sans-serif" font-size="10.0" fill="#1c1b19">Headless ERP, CRM, WMS, MES &amp; databases.</text>
+<line x1="1088" y1="656" x2="1526" y2="656" stroke="#cfcabe" stroke-width="0.8"/>
+<text x="1090" y="673" font-family="Consolas, monospace" font-size="9.4" font-weight="700" fill="#8a5a10">SELECTIVE CONNECTIVITY BY ROLE:</text>
+<text x="1090" y="689" font-family="'Segoe UI', Arial, sans-serif" font-size="9.8" fill="#5c584f">Each block mounts only the interfaces required for its bounded job.</text>
+<rect x="48" y="726" width="490" height="314" fill="#f7f4ec" stroke="#1c1b19" stroke-width="1.2"/>
+<text x="64" y="748" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="0.8" fill="#1c1b19">A2 · ROTATED 3D PERSPECTIVE &amp; THREE OPERATING SPEEDS</text>
+<line x1="60" y1="756" x2="524" y2="756" stroke="#1c1b19" stroke-width="0.8"/>
+    <g>
+      <polygon points="116.7,793.9 126.2,799.5 126.2,810.5 116.7,805.0" fill="#eecbc4" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="135.8,793.9 135.8,805.0 126.2,810.5 126.2,799.5" fill="#e0b5ad" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="126.2,788.4 135.8,793.9 126.2,799.5 116.7,793.9" fill="#f9ebe8" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="124.6,798.5 141.3,808.2 141.3,822.9 124.6,813.3" fill="#e5cd9f" stroke="#8a5a10" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="154.1,800.8 154.1,815.6 141.3,822.9 141.3,808.2" fill="#d4ba88" stroke="#8a5a10" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="137.4,791.2 154.1,800.8 141.3,808.2 124.6,798.5" fill="#f3dfb8" stroke="#8a5a10" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="139.8,807.3 142.1,808.7 142.1,827.1 139.8,825.7" fill="#363d48" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="158.1,799.5 158.1,817.9 142.1,827.1 142.1,808.7" fill="#282d35" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="155.7,798.1 158.1,799.5 142.1,808.7 139.8,807.3" fill="#464e5c" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="87.2,841.3 95.9,846.4 95.9,857.4 87.2,852.4" fill="#e5cd9f" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="105.5,840.9 105.5,851.9 95.9,857.4 95.9,846.4" fill="#d4ba88" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="96.7,835.8 105.5,840.9 95.9,846.4 87.2,841.3" fill="#f3dfb8" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="94.3,845.5 110.3,854.7 110.3,869.4 94.3,860.2" fill="#c5baa4" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="123.0,847.3 123.0,862.0 110.3,869.4 110.3,854.7" fill="#b4a890" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="107.1,838.1 123.0,847.3 110.3,854.7 94.3,845.5" fill="#d5cbb6" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="108.7,853.7 111.1,855.1 111.1,873.5 108.7,872.1" fill="#363d48" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="127.0,845.9 127.0,864.3 111.1,873.5 111.1,855.1" fill="#282d35" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="124.6,844.5 127.0,845.9 111.1,855.1 108.7,853.7" fill="#464e5c" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="256.1,808.2 265.6,813.7 265.6,824.8 256.1,819.2" fill="#e5cd9f" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="274.4,808.7 274.4,819.7 265.6,824.8 265.6,813.7" fill="#d4ba88" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="264.8,803.1 274.4,808.7 265.6,813.7 256.1,808.2" fill="#f3dfb8" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="236.2,816.0 248.9,823.4 248.9,838.1 236.2,830.7" fill="#c5baa4" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="267.2,812.8 267.2,827.5 248.9,838.1 248.9,823.4" fill="#b4a890" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="254.5,805.4 267.2,812.8 248.9,823.4 236.2,816.0" fill="#d5cbb6" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="227.4,817.4 243.3,826.6 243.3,845.0 227.4,835.8" fill="#363d48" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="250.5,822.5 250.5,840.9 243.3,845.0 243.3,826.6" fill="#282d35" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="234.6,813.3 250.5,822.5 243.3,826.6 227.4,817.4" fill="#464e5c" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="154.1,854.2 178.0,868.0 178.0,895.6 154.1,881.8" fill="#cfc5b0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="201.9,854.2 201.9,881.8 178.0,895.6 178.0,868.0" fill="#beb39d" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="178.0,840.4 201.9,854.2 178.0,868.0 154.1,854.2" fill="#dfd6c3" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="130.2,868.0 154.1,881.8 154.1,909.4 130.2,895.6" fill="#cfc5b0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="178.0,868.0 178.0,895.6 154.1,909.4 154.1,881.8" fill="#beb39d" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="154.1,854.2 178.0,868.0 154.1,881.8 130.2,868.0" fill="#dfd6c3" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="106.3,881.8 130.2,895.6 130.2,923.2 106.3,909.4" fill="#c5baa4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="154.1,881.8 154.1,909.4 130.2,923.2 130.2,895.6" fill="#b4a890" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="130.2,868.0 154.1,881.8 130.2,895.6 106.3,881.8" fill="#d5cbb6" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="178.0,868.0 201.9,881.8 201.9,909.4 178.0,895.6" fill="#cfc5b0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="225.8,868.0 225.8,895.6 201.9,909.4 201.9,881.8" fill="#beb39d" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="201.9,854.2 225.8,868.0 201.9,881.8 178.0,868.0" fill="#dfd6c3" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="154.1,881.8 178.0,895.6 178.0,923.2 154.1,909.4" fill="#c5baa4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="201.9,881.8 201.9,909.4 178.0,923.2 178.0,895.6" fill="#b4a890" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="178.0,868.0 201.9,881.8 178.0,895.6 154.1,881.8" fill="#d5cbb6" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="130.2,895.6 154.1,909.4 154.1,937.0 130.2,923.2" fill="#c5baa4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="178.0,895.6 178.0,923.2 154.1,937.0 154.1,909.4" fill="#b4a890" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="154.1,881.8 178.0,895.6 154.1,909.4 130.2,895.6" fill="#d5cbb6" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="201.9,881.8 225.8,895.6 225.8,923.2 201.9,909.4" fill="#cfc5b0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="249.7,881.8 249.7,909.4 225.8,923.2 225.8,895.6" fill="#beb39d" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="225.8,868.0 249.7,881.8 225.8,895.6 201.9,881.8" fill="#dfd6c3" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="178.0,895.6 201.9,909.4 201.9,937.0 178.0,923.2" fill="#c5baa4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="225.8,895.6 225.8,923.2 201.9,937.0 201.9,909.4" fill="#b4a890" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="201.9,881.8 225.8,895.6 201.9,909.4 178.0,895.6" fill="#d5cbb6" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="154.1,909.4 178.0,923.2 178.0,950.8 154.1,937.0" fill="#c5baa4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="201.9,909.4 201.9,937.0 178.0,950.8 178.0,923.2" fill="#b4a890" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="178.0,895.6 201.9,909.4 178.0,923.2 154.1,909.4" fill="#d5cbb6" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="154.1,826.6 178.0,840.4 178.0,868.0 154.1,854.2" fill="#ddd6c6" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="201.9,826.6 201.9,854.2 178.0,868.0 178.0,840.4" fill="#ccc4b2" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="178.0,812.8 201.9,826.6 178.0,840.4 154.1,826.6" fill="#ede7d9" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="130.2,840.4 154.1,854.2 154.1,881.8 130.2,868.0" fill="#e5cd9f" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="178.0,840.4 178.0,868.0 154.1,881.8 154.1,854.2" fill="#d4ba88" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="154.1,826.6 178.0,840.4 154.1,854.2 130.2,840.4" fill="#f3dfb8" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="106.3,854.2 130.2,868.0 130.2,895.6 106.3,881.8" fill="#e6e0d0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="154.1,854.2 154.1,881.8 130.2,895.6 130.2,868.0" fill="#d5cebc" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="130.2,840.4 154.1,854.2 130.2,868.0 106.3,854.2" fill="#f5f1e6" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="178.0,840.4 201.9,854.2 201.9,881.8 178.0,868.0" fill="#e5cd9f" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="225.8,840.4 225.8,868.0 201.9,881.8 201.9,854.2" fill="#d4ba88" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="201.9,826.6 225.8,840.4 201.9,854.2 178.0,840.4" fill="#f3dfb8" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="154.1,854.2 178.0,868.0 178.0,895.6 154.1,881.8" fill="#e5cd9f" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="201.9,854.2 201.9,881.8 178.0,895.6 178.0,868.0" fill="#d4ba88" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="178.0,840.4 201.9,854.2 178.0,868.0 154.1,854.2" fill="#f3dfb8" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="130.2,868.0 154.1,881.8 154.1,909.4 130.2,895.6" fill="#e5cd9f" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="178.0,868.0 178.0,895.6 154.1,909.4 154.1,881.8" fill="#d4ba88" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="154.1,854.2 178.0,868.0 154.1,881.8 130.2,868.0" fill="#f3dfb8" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="201.9,854.2 225.8,868.0 225.8,895.6 201.9,881.8" fill="#ddd6c6" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="249.7,854.2 249.7,881.8 225.8,895.6 225.8,868.0" fill="#ccc4b2" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="225.8,840.4 249.7,854.2 225.8,868.0 201.9,854.2" fill="#ede7d9" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="178.0,868.0 201.9,881.8 201.9,909.4 178.0,895.6" fill="#e5cd9f" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="225.8,868.0 225.8,895.6 201.9,909.4 201.9,881.8" fill="#d4ba88" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="201.9,854.2 225.8,868.0 201.9,881.8 178.0,868.0" fill="#f3dfb8" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="154.1,881.8 178.0,895.6 178.0,923.2 154.1,909.4" fill="#d4cdba" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="201.9,881.8 201.9,909.4 178.0,923.2 178.0,895.6" fill="#c3bba7" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="178.0,868.0 201.9,881.8 178.0,895.6 154.1,881.8" fill="#e4decb" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="154.1,799.0 178.0,812.8 178.0,840.4 154.1,826.6" fill="#e8e2d4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="201.9,799.0 201.9,826.6 178.0,840.4 178.0,812.8" fill="#d8d1c0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="178.0,785.2 201.9,799.0 178.0,812.8 154.1,799.0" fill="#f7f4ec" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="130.2,812.8 154.1,826.6 154.1,854.2 130.2,840.4" fill="#e8e2d4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="178.0,812.8 178.0,840.4 154.1,854.2 154.1,826.6" fill="#d8d1c0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="154.1,799.0 178.0,812.8 154.1,826.6 130.2,812.8" fill="#f7f4ec" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="178.0,812.8 201.9,826.6 201.9,854.2 178.0,840.4" fill="#e8e2d4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="225.8,812.8 225.8,840.4 201.9,854.2 201.9,826.6" fill="#d8d1c0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="201.9,799.0 225.8,812.8 201.9,826.6 178.0,812.8" fill="#f7f4ec" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="154.1,826.6 178.0,840.4 178.0,868.0 154.1,854.2" fill="#e5cd9f" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="201.9,826.6 201.9,854.2 178.0,868.0 178.0,840.4" fill="#d4ba88" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="178.0,812.8 201.9,826.6 178.0,840.4 154.1,826.6" fill="#f3dfb8" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="201.9,826.6 225.8,840.4 225.8,868.0 201.9,854.2" fill="#e8e2d4" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="249.7,826.6 249.7,854.2 225.8,868.0 225.8,840.4" fill="#d8d1c0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="225.8,812.8 249.7,826.6 225.8,840.4 201.9,826.6" fill="#f7f4ec" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="178.0,840.4 201.9,854.2 201.9,881.8 178.0,868.0" fill="#d6cebe" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="225.8,840.4 225.8,868.0 201.9,881.8 201.9,854.2" fill="#c5bcab" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      <polygon points="201.9,826.6 225.8,840.4 201.9,854.2 178.0,840.4" fill="#e6dfd0" stroke="#6e685f" stroke-width="0.75" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="106.3,847.3 178.0,888.7 178.0,895.6 106.3,854.2" fill="#ead2cd" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <polygon points="201.9,874.9 201.9,881.8 178.0,895.6 178.0,888.7" fill="#dcbdb7" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <polygon points="130.2,833.5 201.9,874.9 178.0,888.7 106.3,847.3" fill="#f5e6e3" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <line x1="154.1" y1="847.3" x2="130.2" y2="861.1" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="130.2" y1="861.1" x2="130.2" y2="868.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="178.0" y1="861.1" x2="154.1" y2="874.9" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="154.1" y1="874.9" x2="154.1" y2="881.8" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+    </g>
+    <g>
+      <polygon points="106.3,840.4 178.0,881.8 178.0,888.7 106.3,847.3" fill="#ead2cd" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <polygon points="201.9,868.0 201.9,874.9 178.0,888.7 178.0,881.8" fill="#dcbdb7" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <polygon points="130.2,826.6 201.9,868.0 178.0,881.8 106.3,840.4" fill="#f5e6e3" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <line x1="154.1" y1="840.4" x2="130.2" y2="854.2" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="130.2" y1="854.2" x2="130.2" y2="861.1" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="178.0" y1="854.2" x2="154.1" y2="868.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="154.1" y1="868.0" x2="154.1" y2="874.9" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+    </g>
+    <g>
+      <polygon points="106.3,833.5 178.0,874.9 178.0,881.8 106.3,840.4" fill="#ead2cd" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <polygon points="201.9,861.1 201.9,868.0 178.0,881.8 178.0,874.9" fill="#dcbdb7" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <polygon points="130.2,819.7 201.9,861.1 178.0,874.9 106.3,833.5" fill="#f5e6e3" stroke="#b42318" stroke-width="1.25" stroke-linejoin="round"/>
+      <line x1="154.1" y1="833.5" x2="130.2" y2="847.3" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="130.2" y1="847.3" x2="130.2" y2="854.2" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="178.0" y1="847.3" x2="154.1" y2="861.1" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="154.1" y1="861.1" x2="154.1" y2="868.0" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+    </g>
+    <g>
+      <polygon points="106.3,826.6 178.0,868.0 178.0,874.9 106.3,833.5" fill="#eecbc4" stroke="#b42318" stroke-width="1.45" stroke-linejoin="round"/>
+      <polygon points="201.9,854.2 201.9,861.1 178.0,874.9 178.0,868.0" fill="#e0b5ad" stroke="#b42318" stroke-width="1.45" stroke-linejoin="round"/>
+      <polygon points="130.2,812.8 201.9,854.2 178.0,868.0 106.3,826.6" fill="#f9ebe8" stroke="#b42318" stroke-width="1.45" stroke-linejoin="round"/>
+      <line x1="154.1" y1="826.6" x2="130.2" y2="840.4" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="130.2" y1="840.4" x2="130.2" y2="847.3" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="178.0" y1="840.4" x2="154.1" y2="854.2" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+      <line x1="154.1" y1="854.2" x2="154.1" y2="861.1" stroke="#b42318" stroke-width="0.6" stroke-opacity="0.32"/>
+    </g>
+<line x1="178.0" y1="785.2" x2="154.1" y2="799.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="178.0" y1="785.2" x2="201.9" y2="799.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="154.1" y1="799.0" x2="130.2" y2="812.8" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="130.2" y1="812.8" x2="106.3" y2="826.6" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="130.2" y1="812.8" x2="154.1" y2="826.6" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="106.3" y1="826.6" x2="130.2" y2="840.4" stroke="#b42318" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="201.9" y1="799.0" x2="225.8" y2="812.8" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="178.0" y1="812.8" x2="154.1" y2="826.6" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="178.0" y1="812.8" x2="201.9" y2="826.6" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="154.1" y1="826.6" x2="178.0" y2="840.4" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="130.2" y1="840.4" x2="154.1" y2="854.2" stroke="#b42318" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="249.7" y1="826.6" x2="225.8" y2="840.4" stroke="#1c1b19" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="225.8" y1="812.8" x2="249.7" y2="826.6" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="201.9" y1="826.6" x2="178.0" y2="840.4" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="225.8" y1="840.4" x2="201.9" y2="854.2" stroke="#1c1b19" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="201.9" y1="826.6" x2="225.8" y2="840.4" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="201.9" y1="854.2" x2="178.0" y2="868.0" stroke="#b42318" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="178.0" y1="840.4" x2="201.9" y2="854.2" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="154.1" y1="854.2" x2="178.0" y2="868.0" stroke="#b42318" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="106.3" y1="909.4" x2="106.3" y2="881.8" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="106.3" y1="909.4" x2="130.2" y2="923.2" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="106.3" y1="881.8" x2="106.3" y2="854.2" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="106.3" y1="881.8" x2="130.2" y2="895.6" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="106.3" y1="854.2" x2="106.3" y2="826.6" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="106.3" y1="854.2" x2="130.2" y2="868.0" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="130.2" y1="923.2" x2="154.1" y2="937.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="130.2" y1="895.6" x2="130.2" y2="868.0" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="130.2" y1="895.6" x2="154.1" y2="909.4" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="130.2" y1="868.0" x2="154.1" y2="881.8" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="178.0" y1="950.8" x2="178.0" y2="923.2" stroke="#1c1b19" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="154.1" y1="937.0" x2="178.0" y2="950.8" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="154.1" y1="909.4" x2="154.1" y2="881.8" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="178.0" y1="923.2" x2="178.0" y2="895.6" stroke="#1c1b19" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="154.1" y1="909.4" x2="178.0" y2="923.2" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="178.0" y1="895.6" x2="178.0" y2="868.0" stroke="#b42318" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="154.1" y1="881.8" x2="178.0" y2="895.6" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="249.7" y1="909.4" x2="249.7" y2="881.8" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="249.7" y1="909.4" x2="225.8" y2="923.2" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="249.7" y1="881.8" x2="249.7" y2="854.2" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="249.7" y1="881.8" x2="225.8" y2="895.6" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="249.7" y1="854.2" x2="249.7" y2="826.6" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="249.7" y1="854.2" x2="225.8" y2="868.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="225.8" y1="923.2" x2="225.8" y2="895.6" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="225.8" y1="923.2" x2="201.9" y2="937.0" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="225.8" y1="895.6" x2="225.8" y2="868.0" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="225.8" y1="895.6" x2="201.9" y2="909.4" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="225.8" y1="868.0" x2="225.8" y2="840.4" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="225.8" y1="868.0" x2="201.9" y2="881.8" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="201.9" y1="937.0" x2="178.0" y2="950.8" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="201.9" y1="909.4" x2="201.9" y2="881.8" stroke="#8a5a10" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="201.9" y1="909.4" x2="178.0" y2="923.2" stroke="#1c1b19" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="201.9" y1="881.8" x2="201.9" y2="854.2" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+<line x1="201.9" y1="881.8" x2="178.0" y2="895.6" stroke="#b42318" stroke-width="2.1" stroke-linecap="round"/>
+    <g>
+      <polygon points="104.3,863.6 121.0,873.3 121.0,892.6 104.3,882.9" fill="#363d48" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="126.6,870.1 126.6,889.4 121.0,892.6 121.0,873.3" fill="#282d35" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="109.9,860.4 126.6,870.1 121.0,873.3 104.3,863.6" fill="#464e5c" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="96.3,873.8 108.3,880.6 108.3,894.4 96.3,887.5" fill="#c5baa4" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="118.6,874.7 118.6,888.5 108.3,894.4 108.3,880.6" fill="#b4a890" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="106.7,867.8 118.6,874.7 108.3,880.6 96.3,873.8" fill="#d5cbb6" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="91.2,881.3 99.1,885.9 99.1,895.1 91.2,890.5" fill="#e5cd9f" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="106.3,881.8 106.3,891.0 99.1,895.1 99.1,885.9" fill="#d4ba88" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="98.3,877.2 106.3,881.8 99.1,885.9 91.2,881.3" fill="#f3dfb8" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="205.5,911.5 211.1,914.7 211.1,934.0 205.5,930.8" fill="#363d48" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="227.8,905.0 227.8,924.4 211.1,934.0 211.1,914.7" fill="#282d35" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="222.2,901.8 227.8,905.0 211.1,914.7 205.5,911.5" fill="#464e5c" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="213.5,916.1 223.8,922.1 223.8,935.9 213.5,929.9" fill="#c5baa4" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="235.8,915.2 235.8,929.0 223.8,935.9 223.8,922.1" fill="#b4a890" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      <polygon points="225.4,909.2 235.8,915.2 223.8,922.1 213.5,916.1" fill="#d5cbb6" stroke="#1c1b19" stroke-width="1.4" stroke-linejoin="round"/>
+      
+    </g>
+    <g>
+      <polygon points="225.8,923.2 233.0,927.3 233.0,936.5 225.8,932.4" fill="#e5cd9f" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="240.9,922.7 240.9,931.9 233.0,936.5 233.0,927.3" fill="#d4ba88" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="233.8,918.6 240.9,922.7 233.0,927.3 225.8,923.2" fill="#f3dfb8" stroke="#b42318" stroke-width="1.5" stroke-linejoin="round"/>
+      
+    </g>
+<text x="113.4" y="790.7" text-anchor="end" font-family="Consolas, monospace" font-size="8.0" font-weight="700" fill="#b42318">SLACK</text>
+<text x="84.0" y="846.1" text-anchor="end" font-family="Consolas, monospace" font-size="8.0" font-weight="700" fill="#8a5a10">MCP</text>
+<text x="277.6" y="809.4" text-anchor="start" font-family="Consolas, monospace" font-size="8.0" font-weight="700" fill="#8a5a10">A2A</text>
+<text x="87.1" y="898.2" text-anchor="end" font-family="Consolas, monospace" font-size="8.0" font-weight="700" fill="#8a5a10">CLI</text>
+<text x="245.0" y="939.6" text-anchor="start" font-family="Consolas, monospace" font-size="8.0" font-weight="700" fill="#8a5a10">API</text>
+<text x="175" y="968" text-anchor="middle" font-family="Consolas, monospace" font-size="8.8" font-weight="700" fill="#1c1b19">ROTATED 90° QUARTER-TURN PERSPECTIVE</text>
+<rect x="292" y="770" width="230" height="58" fill="#f4f1e8" stroke="#1c1b19" stroke-width="1.2"/>
+<text x="302" y="788" font-family="Consolas, monospace" font-size="9.8" font-weight="700" fill="#b42318">SPEED 1 · EXECUTE DEFINED WORK</text>
+<text x="302" y="804" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#1c1b19">Approved code runs on the hot path.</text>
+<text x="302" y="819" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#5c584f">Zero model latency per transaction.</text>
+<rect x="292" y="836" width="230" height="58" fill="#f4f1e8" stroke="#1c1b19" stroke-width="1.2"/>
+<text x="302" y="854" font-family="Consolas, monospace" font-size="9.8" font-weight="700" fill="#1c1b19">SPEED 2 · MONITOR &amp; RECOVER</text>
+<text x="302" y="870" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#1c1b19">Continuous watch checks health and</text>
+<text x="302" y="885" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#5c584f">alerts the operator on exceptions.</text>
+<rect x="292" y="902" width="230" height="58" fill="#f4f1e8" stroke="#1c1b19" stroke-width="1.2"/>
+<text x="302" y="920" font-family="Consolas, monospace" font-size="9.8" font-weight="700" fill="#8a5a10">SPEED 3 · REVIEW &amp; APPROVE</text>
+<text x="302" y="936" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#1c1b19">Human + AI review exceptions, policy</text>
+<text x="302" y="951" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#5c584f">decisions, and version upgrades.</text>
+<text x="64" y="990" font-family="Consolas, monospace" font-size="9.8" font-weight="700" fill="#b42318">ARCHITECTURAL PRINCIPLE: EXECUTION &amp; JUDGMENT NEVER BLOCK EACH OTHER.</text>
+<text x="64" y="1008" font-family="'Segoe UI', Arial, sans-serif" font-size="10.8" fill="#1c1b19">Code handles the transaction. Intelligence and human authority handle the decision.</text>
+<rect x="552" y="726" width="490" height="314" fill="#f7f4ec" stroke="#1c1b19" stroke-width="1.2"/>
+<text x="568" y="748" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="0.8" fill="#b42318">A3 · OPERATOR IN COMMAND · HARA RUNTIME HOST</text>
+<line x1="564" y1="756" x2="1028" y2="756" stroke="#1c1b19" stroke-width="0.8"/>
+<rect x="564" y="766" width="144" height="58" fill="#f4f1e8" stroke="#8a5a10" stroke-width="1.3"/>
+<text x="636" y="784" text-anchor="middle" font-family="Consolas, monospace" font-size="9.2" font-weight="700" fill="#6b4206">PAIRED INTELLIGENCE</text>
+<text x="636" y="799" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="9.2" fill="#1c1b19">Assigned Agent Crew</text>
+<text x="636" y="813" text-anchor="middle" font-family="Consolas, monospace" font-size="8.2" fill="#5c584f">Context &amp; Skills Ready</text>
+<rect x="564" y="902" width="144" height="58" fill="#f4f1e8" stroke="#1c1b19" stroke-width="1.3"/>
+<text x="636" y="920" text-anchor="middle" font-family="Consolas, monospace" font-size="9.2" font-weight="700" fill="#1c1b19">AUTOMATED EXECUTION</text>
+<text x="636" y="935" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="9.2" fill="#1c1b19">Runs Standard Steps</text>
+<text x="636" y="949" text-anchor="middle" font-family="Consolas, monospace" font-size="8.2" fill="#5c584f">Escalates Exceptions</text>
+<rect x="886" y="766" width="144" height="58" fill="#f9ebe8" stroke="#b42318" stroke-width="1.4"/>
+<text x="958" y="784" text-anchor="middle" font-family="Consolas, monospace" font-size="9.2" font-weight="700" fill="#b42318">4-PIN GOVERNANCE</text>
+<text x="958" y="799" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="9.2" fill="#1c1b19">Controls &amp; Review</text>
+<text x="958" y="813" text-anchor="middle" font-family="Consolas, monospace" font-size="8.2" fill="#b42318">Evidence &amp; Approval</text>
+<rect x="886" y="902" width="144" height="58" fill="#f4f1e8" stroke="#8a5a10" stroke-width="1.3"/>
+<text x="958" y="920" text-anchor="middle" font-family="Consolas, monospace" font-size="9.2" font-weight="700" fill="#6b4206">SCOPED MEMORY</text>
+<text x="958" y="935" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="9.2" fill="#1c1b19">Private State Kept</text>
+<text x="958" y="949" text-anchor="middle" font-family="Consolas, monospace" font-size="8.2" fill="#5c584f">Clear Boundaries</text>
+<line x1="708" y1="795" x2="735" y2="818" stroke="#8a5a10" stroke-width="1.5" stroke-dasharray="3 2"/>
+<line x1="708" y1="931" x2="735" y2="908" stroke="#1c1b19" stroke-width="1.5" stroke-dasharray="3 2"/>
+<line x1="886" y1="795" x2="859" y2="818" stroke="#b42318" stroke-width="1.5" stroke-dasharray="3 2"/>
+<line x1="886" y1="931" x2="859" y2="908" stroke="#8a5a10" stroke-width="1.5" stroke-dasharray="3 2"/>
+<circle cx="797" cy="863" r="86" fill="#ece6d8" stroke="#1c1b19" stroke-width="1.6"/>
+<circle cx="797" cy="863" r="60" fill="#f3dfb8" stroke="#8a5a10" stroke-width="1.8"/>
+<circle cx="797" cy="863" r="35" fill="#b42318" stroke="#1c1b19" stroke-width="1.8"/>
+<rect x="727" y="781" width="140" height="15" rx="3" fill="#f7f4ec" stroke="#1c1b19" stroke-width="0.9"/>
+<text x="797" y="792" text-anchor="middle" font-family="Consolas, monospace" font-size="7.8" font-weight="700" fill="#1c1b19">GOVERNED BLOCK SHELL</text>
+<rect x="727" y="930" width="140" height="15" rx="3" fill="#f7f4ec" stroke="#1c1b19" stroke-width="0.9"/>
+<text x="797" y="941" text-anchor="middle" font-family="Consolas, monospace" font-size="7.8" font-weight="700" fill="#1c1b19">LIVING SOP &amp; SURFACES</text>
+<text x="797" y="821" text-anchor="middle" font-family="Consolas, monospace" font-size="8.0" font-weight="700" fill="#6b4206">01 HARA HOST</text>
+<rect x="739" y="902" width="116" height="14" rx="3" fill="#f3dfb8" stroke="#8a5a10" stroke-width="0.9"/>
+<text x="797" y="912" text-anchor="middle" font-family="Consolas, monospace" font-size="7.5" font-weight="700" fill="#6b4206">PAIRED INTELLIGENCE</text>
+<text x="797" y="855" text-anchor="middle" font-family="Consolas, monospace" font-size="8.4" font-weight="700" fill="#f7f4ec">OPERATOR</text>
+<text x="797" y="866" text-anchor="middle" font-family="Consolas, monospace" font-size="8.4" font-weight="700" fill="#f7f4ec">IN COMMAND</text>
+<text x="797" y="878" text-anchor="middle" font-family="Consolas, monospace" font-size="7.0" fill="#f3dfb8">Hara Host · Gate</text>
+<text x="568" y="990" font-family="Consolas, monospace" font-size="9.8" font-weight="700" fill="#b42318">HUMAN AUTHORITY AT THE CENTER OF EVERY BLOCK:</text>
+<text x="568" y="1008" font-family="'Segoe UI', Arial, sans-serif" font-size="10.6" fill="#1c1b19">Automation executes standard work; the named operator owns judgment and approval.</text>
+<rect x="1056" y="726" width="496" height="314" fill="#f7f4ec" stroke="#1c1b19" stroke-width="1.2"/>
+<text x="1072" y="748" font-family="Consolas, monospace" font-size="10.8" font-weight="700" letter-spacing="0.6" fill="#b42318">A4 · 4-PIN GOVERNANCE CHIP — CONTROLS, REVIEW, EVIDENCE &amp; APPROVAL</text>
+<line x1="1068" y1="756" x2="1538" y2="756" stroke="#1c1b19" stroke-width="0.8"/>
+<rect x="1072" y="768" width="464" height="46" fill="#f9ebe8" stroke="#b42318" stroke-width="1.8"/>
+<rect x="1072" y="768" width="36" height="46" fill="#b42318"/>
+<text x="1090" y="796" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#f7f4ec">12</text>
+<text x="1118" y="786" font-family="Consolas, monospace" font-size="10.4" font-weight="700" fill="#1c1b19">PIN 4 · NAMED HUMAN APPROVAL</text>
+<text x="1524" y="786" text-anchor="end" font-family="Consolas, monospace" font-size="9.0" font-weight="700" fill="#b42318">Accountable Release Gate</text>
+<text x="1118" y="804" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#1c1b19">Named human authority approves releases, exceptions, and material actions.</text>
+<rect x="1072" y="820" width="464" height="46" fill="#f5e6e3" stroke="#b42318" stroke-width="1.2"/>
+<rect x="1072" y="820" width="36" height="46" fill="#b42318"/>
+<text x="1090" y="848" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#f7f4ec">11</text>
+<text x="1118" y="838" font-family="Consolas, monospace" font-size="10.4" font-weight="700" fill="#1c1b19">PIN 3 · AUDITABLE EVIDENCE</text>
+<text x="1524" y="838" text-anchor="end" font-family="Consolas, monospace" font-size="9.0" font-weight="700" fill="#b42318">Lineage &amp; Receipt Trail</text>
+<text x="1118" y="856" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#1c1b19">Tamper-evident execution receipts with end-to-end data and decision lineage.</text>
+<rect x="1072" y="872" width="464" height="46" fill="#f5e6e3" stroke="#b42318" stroke-width="1.2"/>
+<rect x="1072" y="872" width="36" height="46" fill="#b42318"/>
+<text x="1090" y="900" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#f7f4ec">10</text>
+<text x="1118" y="890" font-family="Consolas, monospace" font-size="10.4" font-weight="700" fill="#1c1b19">PIN 2 · INDEPENDENT REVIEW</text>
+<text x="1524" y="890" text-anchor="end" font-family="Consolas, monospace" font-size="9.0" font-weight="700" fill="#b42318">Separation of Duties</text>
+<text x="1118" y="908" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#1c1b19">Runtime monitoring and independent verification (builders never grade their own work).</text>
+<rect x="1072" y="924" width="464" height="46" fill="#efeade" stroke="#b42318" stroke-width="1.2"/>
+<rect x="1072" y="924" width="36" height="46" fill="#b42318"/>
+<text x="1090" y="952" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#f7f4ec">09</text>
+<text x="1118" y="942" font-family="Consolas, monospace" font-size="10.4" font-weight="700" fill="#1c1b19">PIN 1 · DETERMINISTIC CONTROLS</text>
+<text x="1524" y="942" text-anchor="end" font-family="Consolas, monospace" font-size="9.0" font-weight="700" fill="#b42318">Policy Boundary Fence</text>
+<text x="1118" y="960" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#1c1b19">Explicit read/write, authority, and policy boundaries enforced before execution.</text>
+<text x="1072" y="992" font-family="Consolas, monospace" font-size="9.5" font-weight="700" fill="#1c1b19">GOVERNANCE BUILT INTO THE ARCHITECTURE:</text>
+<text x="1072" y="1010" font-family="'Segoe UI', Arial, sans-serif" font-size="10.2" fill="#5c584f">Every block carries controls, independent review, audit evidence, and human sign-off.</text>
+<rect x="48" y="1054" width="1504" height="82" fill="#f7f4ec" stroke="#1c1b19" stroke-width="1.6"/>
+<line x1="650" y1="1054" x2="650" y2="1136" stroke="#1c1b19" stroke-width="1"/>
+<line x1="1240" y1="1054" x2="1240" y2="1136" stroke="#1c1b19" stroke-width="1"/>
+<text x="64" y="1076" font-family="Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1.2" fill="#5c584f">TITLE &amp; ARCHITECTURAL THESIS</text>
+<text x="64" y="1098" font-family="'Segoe UI', Arial, sans-serif" font-size="14.0" font-weight="700" fill="#1c1b19">The Workflow Block — Reusable Capability, Human Command</text>
+<text x="64" y="1120" font-family="'Segoe UI', Arial, sans-serif" font-size="11.0" fill="#5c584f">Bounded Unit of Work · Operator in Command · HARA Runtime Host · 4-Pin Governance Chip</text>
+<text x="666" y="1076" font-family="Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1.2" fill="#5c584f">INTERFACES &amp; OPERATING MODEL</text>
+<text x="666" y="1098" font-family="'Segoe UI', Arial, sans-serif" font-size="12.2" font-weight="700" fill="#1c1b19">5 Selective Interfaces (Slackline · A2A · MCP · CLI · API) · 4-Pin Governance</text>
+<text x="666" y="1120" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#b42318">Three Operating Speeds: Execute · Monitor · Review  |  Human Authority in Command</text>
+<text x="1258" y="1076" font-family="Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1.2" fill="#5c584f">DRAWING REGISTER</text>
+<text x="1258" y="1098" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#1c1b19">PLATE A-1  ·  SHEET 1 OF 4</text>
+<text x="1258" y="1120" font-family="Consolas, monospace" font-size="11" fill="#5c584f">SCALE: NTS  ·  LOOPSMITH</text>
+</svg>
