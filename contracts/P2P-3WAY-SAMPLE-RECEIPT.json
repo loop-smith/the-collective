@@ -1,0 +1,117 @@
+{
+  "receiptSchema": "flowcraft.execution.receipt.v1",
+  "artifactProvenance": "DETERMINISTIC_REFERENCE_FIXTURE (Synthetic P2P 3-way match test case verifiable via `python contracts/validate_package.py`)",
+  "fixtureScope": "Full receipt, no freight, no tax, no partials. Partial-receipt proration, freight allocation, and use-tax accrual are handled in the private runtime and are out of scope for this public fixture.",
+  "receiptId": "RCPT-2026-10-27-P2P06-000842",
+  "idempotencyKey": "IDEMP-P2P06-V00419-INV-2026-9041-PO-44810-GRN-88219",
+  "duplicateReplayPolicy": "REJECT_IF_IDEMPOTENCY_KEY_EXISTS (Prevents duplicate voucher posting on retry)",
+  "packageId": "WFB-P2P-CORE-4WF",
+  "workflowBlockCode": "CWFB-P2P06-3WAY",
+  "bpsRef": "BPS-101.17",
+  "executedAtUtc": "2026-10-27T23:42:18Z",
+  "executionMode": "DETERMINISTIC_RUNTIME_HOT_PATH",
+  "llmCallsOnValidationAndCommitPath": 0,
+  "haraRuntimeBinding": {
+    "humanSeat": "AP-SPECIALIST-SEAT-04 (posts under delegated authority AP-DOA-2026.3)",
+    "agentHarness": "WA-RECONCILE (3-Way Match Engine)",
+    "commsChannel": "slackline://p2p-core/3way-match-exceptions",
+    "memorySpine": "p2p.ap_invoice_3way_match",
+    "delegationPolicyRef": "AP-DOA-2026.3",
+    "delegationPolicyOwner": "CONTROLLER-SEAT-01",
+    "delegationPolicyApprovedUtc": "2026-07-01T00:00:00Z",
+    "autoPostAuthorizedBy": "AP-DOA-2026.3 \u00a74.2 (<= 2.0% and <= $250.00)"
+  },
+  "threeWayMatchDossier": {
+    "purchaseOrder": {
+      "po_no": "PO-44810",
+      "vendor_id": "V00419",
+      "vendor_name": "Pacific Ridge Packaging Corp",
+      "item_sku": "PKG-FILM-480",
+      "ordered_qty": 1200.0,
+      "ordered_unit_price_usd": 14.5,
+      "ordered_extended_usd": 17400.0,
+      "standard_unit_cost_usd": 14.5,
+      "po_vs_standard_ppv_usd": 0.0,
+      "ppv_note": "PPV (PO vs standard) booked at GRN in CWFB-P2P05-RCV; zero in this fixture"
+    },
+    "dockReceiptGrn": {
+      "grn_no": "GRN-88219",
+      "bol_no": "BOL-7741029",
+      "packing_slip_no": "PS-99201",
+      "sscc_pallet": "001007891200044182",
+      "received_qty_accepted": 1200.0,
+      "qms_vendor_sqf_status": "APPROVED",
+      "coa_lot_verified": true
+    },
+    "vendorInvoice": {
+      "inv_no": "INV-2026-9041",
+      "source_capture": "EDI_810",
+      "extraction_method": "DETERMINISTIC_EDI_PARSE",
+      "payment_terms": "NET30",
+      "billed_qty": 1200.0,
+      "billed_unit_price_usd": 14.62,
+      "freight_tax_usd": 0.0,
+      "billed_total_usd": 17544.0
+    }
+  },
+  "deterministicGateEvaluation": {
+    "billedQtyLeAcceptedGrnQty": true,
+    "qtyVariance": 0.0,
+    "unitPriceVarianceUsd": 0.12,
+    "unitPriceVarianceExtendedUsd": 144.0,
+    "unitPriceVariancePct": 0.008276,
+    "maxAllowedPriceVariancePct": 0.02,
+    "maxAllowedPriceVarianceUsd": 250.0,
+    "toleranceRule": "LESSER_OF_PCT_OR_USD",
+    "activeConnectorAssertions": [
+      {
+        "connectorId": "sqf_regulatory",
+        "assertion": "qms.vendor_sqf_status == 'APPROVED' && qms.coa_lot_verified == true",
+        "result": "PASS"
+      },
+      {
+        "connectorId": "qa_inspection_rtv",
+        "assertion": "active_rtv_debit_memo_total_usd == 0.00",
+        "result": "PASS"
+      }
+    ],
+    "gateVerdict": "3WAY_OK_WITHIN_TOLERANCE",
+    "nextTransition": "POST_AP_VOUCHER_AND_CHAIN_CWFB_P2P07_PAY"
+  },
+  "subledgerJournalVoucher": {
+    "voucherNo": "VCH-2026-019402",
+    "postingStatus": "READY_FOR_PAYMENT",
+    "currency": "USD",
+    "totalDebitsUsd": 17544.0,
+    "totalCreditsUsd": 17544.0,
+    "balanced": true,
+    "journalLines": [
+      {
+        "lineNo": 1,
+        "glAccount": "2115-00-00",
+        "glAccountName": "GR/IR Accrued Purchases Clearing",
+        "debitUsd": 17400.0,
+        "creditUsd": 0.0,
+        "memo": "Clear GRN-88219 GR/IR accrual at PO-44810 unit price"
+      },
+      {
+        "lineNo": 2,
+        "glAccount": "5240-10-02",
+        "glAccountName": "Invoice Price Variance (IPV)",
+        "debitUsd": 144.0,
+        "creditUsd": 0.0,
+        "memo": "Invoice vs PO unit price +0.83% ($0.12 x 1,200); within tolerance policy AP-DOA-2026.3"
+      },
+      {
+        "lineNo": 3,
+        "glAccount": "2010-00-00",
+        "glAccountName": "Accounts Payable - Trade",
+        "debitUsd": 0.0,
+        "creditUsd": 17544.0,
+        "memo": "Payable liability to V00419 (INV-2026-9041)"
+      }
+    ]
+  },
+  "lineageHashAlgorithm": "SHA-256 over canonical JSON of [idempotencyKey, threeWayMatchDossier, deterministicGateEvaluation, subledgerJournalVoucher]",
+  "lineageHashSha256": "05d9d48a80c14df13b1acc1ab99408c77ae91d9ffdd81abe50f1547b56ead30f"
+}

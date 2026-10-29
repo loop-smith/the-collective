@@ -1,0 +1,470 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/loop-smith/the-collective/blob/main/contracts/wfb.package.v1.schema.json",
+  "title": "FlowCraft Workflow Block Package Manifest (wfb.package.v1)",
+  "description": "Formal Draft 2020-12 JSON Schema for compiled B.O.S.S. -> FlowCraft Workflow Block packages (wfb.package.v1), enforcing the 4-step deterministic workflow tuple (1. Manual -> 2. Function -> 3. Validation -> 4. Business Rule), non-empty HARA socket bindings, 4-Pin Governance Chip controls, and typed connector mutation operations.",
+  "type": "object",
+  "required": [
+    "schema",
+    "packageId",
+    "title",
+    "constellation",
+    "executionSemantics",
+    "catalogConventions",
+    "bpfWorkflowShopping",
+    "baselineWorkflowChain",
+    "shoppableEnterpriseConnectors"
+  ],
+  "properties": {
+    "schema": {
+      "const": "wfb.package.v1",
+      "description": "Contract schema version identifier."
+    },
+    "packageId": {
+      "type": "string",
+      "pattern": "^WFB-(P2P|O2C|P2M|S2S|EIC|EI|MDM)-[A-Z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "constellation": {
+      "type": "string",
+      "enum": [
+        "P2P",
+        "O2C",
+        "P2M",
+        "S2S",
+        "EIC",
+        "EI",
+        "MDM"
+      ],
+      "description": "One of the 6 FlowCraft Enterprise Process Constellations (3 Value Flows Driving the Books: P2P Buy, P2M Make, O2C Sell + 3 Universal Spine Layers: MDM Common Data Model & Medallion Warehouse, S2S Deterministic ERP Books & HR, EIC Enterprise Intelligence Collective)."
+    },
+    "executionSemantics": {
+      "type": "object",
+      "required": [
+        "deterministicRuleResolution",
+        "mutationTiming",
+        "stagingIsolation"
+      ],
+      "properties": {
+        "deterministicRuleResolution": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mutationTiming": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stagingIsolation": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "catalogConventions": {
+      "type": "object",
+      "required": [
+        "bpsRefMeaning",
+        "catalogFamilyPrefix",
+        "workflowBlockPrefix"
+      ],
+      "properties": {
+        "bpsRefMeaning": {
+          "type": "string",
+          "minLength": 1
+        },
+        "catalogFamilyPrefix": {
+          "type": "string",
+          "minLength": 1
+        },
+        "workflowBlockPrefix": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "bpfWorkflowShopping": {
+      "type": "object",
+      "required": [
+        "baselineDiagramId",
+        "regulatedEnterpriseDiagramId",
+        "chartingToolUsed",
+        "uiRoutes"
+      ],
+      "properties": {
+        "baselineDiagramId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "regulatedEnterpriseDiagramId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "chartingToolUsed": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uiRoutes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^/[a-z0-9-/]+$"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "baselineWorkflowChain": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "order",
+          "workflowBlockCode",
+          "catalogFamilyId",
+          "bpsRef",
+          "title",
+          "silverCdmTable",
+          "inputContract",
+          "outputContract",
+          "returnLoop",
+          "haraSockets",
+          "governancePins",
+          "canonicalSteps"
+        ],
+        "properties": {
+          "order": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4
+          },
+          "workflowBlockCode": {
+            "type": "string",
+            "pattern": "^CWFB-(P2P|O2C|P2M|S2S|EIC|EI|MDM)[0-9]{2}-[A-Z0-9]+$"
+          },
+          "catalogFamilyId": {
+            "type": "string",
+            "pattern": "^(P2P|O2C|P2M|S2S|EIC|EI|MDM)[0-9]{2}$"
+          },
+          "bpsRef": {
+            "type": "string",
+            "pattern": "^BPS-[0-9]{3}\\.[0-9]{2}$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "silverCdmTable": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+\\.[a-z0-9_]+$"
+          },
+          "inputContract": {
+            "type": "string",
+            "minLength": 1
+          },
+          "outputContract": {
+            "type": "string",
+            "minLength": 1
+          },
+          "returnLoop": {
+            "type": "string",
+            "minLength": 1
+          },
+          "haraSockets": {
+            "type": "object",
+            "required": [
+              "humanSeat",
+              "agentHarness",
+              "commsChannel",
+              "memorySpine"
+            ],
+            "properties": {
+              "humanSeat": {
+                "type": "string",
+                "minLength": 1
+              },
+              "agentHarness": {
+                "type": "string",
+                "minLength": 1
+              },
+              "commsChannel": {
+                "type": "string",
+                "pattern": "^slackline://[a-z0-9-/]+$"
+              },
+              "memorySpine": {
+                "type": "string",
+                "pattern": "^[a-z0-9_]+\\.[a-z0-9_]+$"
+              }
+            },
+            "additionalProperties": false
+          },
+          "governancePins": {
+            "type": "object",
+            "required": [
+              "pin1DeterministicControls",
+              "pin2IndependentReview",
+              "pin3AuditableEvidence",
+              "pin4NamedHumanApproval"
+            ],
+            "properties": {
+              "pin1DeterministicControls": {
+                "type": "string",
+                "minLength": 1
+              },
+              "pin2IndependentReview": {
+                "type": "string",
+                "minLength": 1
+              },
+              "pin3AuditableEvidence": {
+                "type": "string",
+                "minLength": 1
+              },
+              "pin4NamedHumanApproval": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          },
+          "canonicalSteps": {
+            "type": "array",
+            "minItems": 4,
+            "maxItems": 4,
+            "prefixItems": [
+              {
+                "type": "object",
+                "required": [
+                  "stepOrder",
+                  "stepType",
+                  "title",
+                  "deterministicRule"
+                ],
+                "properties": {
+                  "stepOrder": {
+                    "const": 1
+                  },
+                  "stepType": {
+                    "const": "1. Manual Step"
+                  },
+                  "title": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "deterministicRule": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "required": [
+                  "stepOrder",
+                  "stepType",
+                  "title",
+                  "deterministicRule"
+                ],
+                "properties": {
+                  "stepOrder": {
+                    "const": 2
+                  },
+                  "stepType": {
+                    "const": "2. Function Step"
+                  },
+                  "title": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "deterministicRule": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "required": [
+                  "stepOrder",
+                  "stepType",
+                  "title",
+                  "deterministicRule"
+                ],
+                "properties": {
+                  "stepOrder": {
+                    "const": 3
+                  },
+                  "stepType": {
+                    "const": "3. Validation Step"
+                  },
+                  "title": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "deterministicRule": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "required": [
+                  "stepOrder",
+                  "stepType",
+                  "title",
+                  "deterministicRule"
+                ],
+                "properties": {
+                  "stepOrder": {
+                    "const": 4
+                  },
+                  "stepType": {
+                    "const": "4. Business Rule Step"
+                  },
+                  "title": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "deterministicRule": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "additionalProperties": false
+              }
+            ],
+            "items": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "shoppableEnterpriseConnectors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "connectorId",
+          "catalogWfbCode",
+          "catalogFamilyId",
+          "bpsRef",
+          "title",
+          "attachesToBaselineOrders",
+          "wireContract",
+          "runtimeMutation",
+          "mutationRules"
+        ],
+        "properties": {
+          "connectorId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "catalogWfbCode": {
+            "type": "string",
+            "pattern": "^CWFB-(P2P|O2C|P2M|S2S|EIC|EI|MDM)[0-9]{2}-[A-Z0-9]+$"
+          },
+          "catalogFamilyId": {
+            "type": "string",
+            "pattern": "^(P2P|O2C|P2M|S2S|EIC|EI|MDM)[0-9]{2}$"
+          },
+          "bpsRef": {
+            "type": "string",
+            "pattern": "^BPS-[0-9]{3}\\.[0-9]{2}$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "attachesToBaselineOrders": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 4
+            }
+          },
+          "wireContract": {
+            "type": "string",
+            "minLength": 1
+          },
+          "runtimeMutation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "mutationRules": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "targetOrder",
+                "targetStepOrder",
+                "operation",
+                "expression",
+                "onFailureRoute"
+              ],
+              "properties": {
+                "targetOrder": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 4
+                },
+                "targetStepOrder": {
+                  "type": "integer",
+                  "enum": [
+                    1,
+                    2,
+                    3,
+                    4
+                  ]
+                },
+                "operation": {
+                  "type": "string",
+                  "enum": [
+                    "INJECT_PRECONDITION_ASSERT",
+                    "BIND_PROTOCOL_ADAPTER",
+                    "PREPOPULATE_STEP_FIELDS",
+                    "ADD_EXCEPTION_LOOP_BRANCH",
+                    "CALCULATE_NET_PAYABLE_DEDUCTION",
+                    "CHAIN_POST_COMMIT_EVENT"
+                  ]
+                },
+                "expression": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "onFailureRoute": {
+                  "type": "string",
+                  "enum": [
+                    "HOLD_VENDOR_COMPLIANCE_QUEUE",
+                    "Loop_L1_Req_Amend",
+                    "Loop_L2_PO_Change_Order",
+                    "MANUAL_DOCK_SCAN_FALLBACK",
+                    "Loop_L3_Quarantine",
+                    "CWFB-P2P08-RTV",
+                    "Loop_L4_AP_Hold",
+                    "TREASURY_EXCEPTION_QUEUE"
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

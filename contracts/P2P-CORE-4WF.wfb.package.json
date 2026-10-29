@@ -1,0 +1,334 @@
+{
+  "schema": "wfb.package.v1",
+  "packageId": "WFB-P2P-CORE-4WF",
+  "title": "Procure to Pay (P2P) - 4-Workflow Baseline Spine & Shoppable Enterprise Connectors",
+  "constellation": "P2P",
+  "executionSemantics": {
+    "deterministicRuleResolution": "Declarative predicate and function bindings resolved at package load time against FlowCraft's registered deterministic predicate catalog (not freeform runtime LLM prompts).",
+    "mutationTiming": "Versioned package overlays compiled and approved prior to workflow activation; running in-flight workflow instances remain bound to their pinned package hash.",
+    "stagingIsolation": "Function Steps (Step 2) stage candidate numbers and receipt slots inside an uncommitted SQLite/PostgreSQL savepoint; if Validation Step (Step 3) or Business Rule Step (Step 4) fails, the savepoint rolls back and routes to the named exception loop."
+  },
+  "catalogConventions": {
+    "bpsRefMeaning": "Business Process Standard (BPS) catalog identifier indexing the 66 enterprise outcome families across the 6 constellations.",
+    "catalogFamilyPrefix": "P2P01..P2P10 (Procure-to-Pay outcome families inside the 66-family baseline catalog)",
+    "workflowBlockPrefix": "CWFB-<FAMILY>-<ROLE> (Compiled Workflow Block identifier)"
+  },
+  "bpfWorkflowShopping": {
+    "baselineDiagramId": "BPF-CHART // DWG: BOSS-P2P-BASELINE-4WF",
+    "regulatedEnterpriseDiagramId": "BPF-CHART // DWG: BOSS-P2P-CUSTOM-8WF",
+    "chartingToolUsed": "Archify (lightweight flowchart canvas inside B.O.S.S. used during live discovery sessions; modeling tool only, not the runtime engine)",
+    "uiRoutes": [
+      "/bpf",
+      "/catalog",
+      "/workflows"
+    ]
+  },
+  "baselineWorkflowChain": [
+    {
+      "order": 1,
+      "workflowBlockCode": "CWFB-P2P04-REQ",
+      "catalogFamilyId": "P2P04",
+      "bpsRef": "BPS-101.18",
+      "title": "Workflow #1: Purchase Requisition & DOA Approval Tree",
+      "silverCdmTable": "p2p.purchase_requisition",
+      "inputContract": "Purchase Need (Item/Service Spec, Qty, Cost Center)",
+      "outputContract": "Approved Requisition [req_no, status=APPROVED, doa_tier]",
+      "returnLoop": "Loop L1 (Req Amend / Reject -> Requisitioner)",
+      "haraSockets": {
+        "humanSeat": "Department Requisitioner -> Cost-Center Approver ($5k Mgr / $50k Dir / >$50k VP)",
+        "agentHarness": "WA-COMMIT (Budget & GL Dimension Validator)",
+        "commsChannel": "slackline://p2p-core/req-approval",
+        "memorySpine": "p2p.purchase_requisition"
+      },
+      "governancePins": {
+        "pin1DeterministicControls": "requester_id != approver_id && cost_center_budget_remaining >= req_total_usd",
+        "pin2IndependentReview": "WA-COMMIT validates GL dimension combination prior to routing DOA approval",
+        "pin3AuditableEvidence": "SHA-256 signed requisition approval receipt persisted to p2p.purchase_requisition",
+        "pin4NamedHumanApproval": "Named DOA seat sign-off ($5k Mgr / $50k Dir / >$50k VP)"
+      },
+      "canonicalSteps": [
+        {
+          "stepOrder": 1,
+          "stepType": "1. Manual Step",
+          "title": "Submit Requisition Cart (Inventory SKU or Service SOW)",
+          "deterministicRule": "req_lines.count >= 1 && cost_center_id != null"
+        },
+        {
+          "stepOrder": 2,
+          "stepType": "2. Function Step",
+          "title": "Resolve Catalog Vendor Price & GL Cost-Center Dimensions",
+          "deterministicRule": "lookup_active_price_tier(item_id, vendor_id, qty)"
+        },
+        {
+          "stepOrder": 3,
+          "stepType": "3. Validation Step",
+          "title": "Verify Budget Encumbrance & Segregation of Duties (SoD)",
+          "deterministicRule": "requester_id != approver_id && gl.available_budget(cost_center_id) >= req_total_usd"
+        },
+        {
+          "stepOrder": 4,
+          "stepType": "4. Business Rule Step",
+          "title": "Execute DOA Approval Tree Sign-Off -> Emit Approved Requisition",
+          "deterministicRule": "route_doa_tier(req_total_usd) -> status == APPROVED ? emit(req_no) : route(Loop_L1)"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "workflowBlockCode": "CWFB-P2P04-PO",
+      "catalogFamilyId": "P2P04",
+      "bpsRef": "BPS-101.01",
+      "title": "Workflow #2: Purchase Order Generation, Dispatch & Supplier Ack",
+      "silverCdmTable": "p2p.purchase_order",
+      "inputContract": "Approved Requisition [req_no]",
+      "outputContract": "Issued Purchase Order [po_no, status=ISSUED_OPEN] + Expected Receipt Slot",
+      "returnLoop": "Loop L2 (PO Change Order / EDI 860 -> Re-Validate DOA & Sync Receiving)",
+      "haraSockets": {
+        "humanSeat": "Category Buyer (Procurement Seat)",
+        "agentHarness": "WA-COMMIT (PO Assembler & EDI/Portal Dispatcher)",
+        "commsChannel": "slackline://p2p-core/po-dispatch",
+        "memorySpine": "p2p.purchase_order"
+      },
+      "governancePins": {
+        "pin1DeterministicControls": "req.status == APPROVED && vendor.status == ACTIVE",
+        "pin2IndependentReview": "Verify PO line total <= approved requisition encumbrance ceiling",
+        "pin3AuditableEvidence": "Immutable PO dispatch envelope + encumbrance journal entry",
+        "pin4NamedHumanApproval": "Category Buyer release authorization"
+      },
+      "canonicalSteps": [
+        {
+          "stepOrder": 1,
+          "stepType": "1. Manual Step",
+          "title": "Review Approved Req & Confirm Delivery Incoterms / SOW Schedule",
+          "deterministicRule": "req.status == APPROVED && buyer_seat_id != null"
+        },
+        {
+          "stepOrder": 2,
+          "stepType": "2. Function Step",
+          "title": "Stage Provisional PO-##### & Expected Receipt Slot in Savepoint",
+          "deterministicRule": "stage_provisional_po(req_no) && stage_wms_expected_receipt(po_no)"
+        },
+        {
+          "stepOrder": 3,
+          "stepType": "3. Validation Step",
+          "title": "Verify Supplier Dispatch Channel & Payment Terms Before Commit",
+          "deterministicRule": "vendor.payment_terms_code in ['NET30', 'NET45', '2_10_NET30'] && po_total_usd <= req_total_usd"
+        },
+        {
+          "stepOrder": 4,
+          "stepType": "4. Business Rule Step",
+          "title": "Commit PO Savepoint Outbound & Record Supplier Acknowledgment",
+          "deterministicRule": "commit_and_dispatch_po(po_no) -> status = ISSUED_OPEN"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "workflowBlockCode": "CWFB-P2P05-RCV",
+      "catalogFamilyId": "P2P05",
+      "bpsRef": "BPS-103.02",
+      "title": "Workflow #3: Inbound Receiving - Bill of Lading (BOL), Shipper & System GRN",
+      "silverCdmTable": "p2p.purchase_receipt",
+      "inputContract": "Open PO [po_no] + Carrier Bill of Lading (BOL) + Vendor Shipper/Packing Slip (or Service Entry Sheet)",
+      "outputContract": "Posted System Receipt [grn_no, bol_no, packing_slip_no, qty_received]",
+      "returnLoop": "Loop L3 (Dock Discrepancy / Quarantine / RTV Return Order)",
+      "haraSockets": {
+        "humanSeat": "Receiving Dock Clerk (Inventory) / Department Lead (Service)",
+        "agentHarness": "WA-FULFILL (BOL/Packing Slip OCR & GRN Ledger Coordinator)",
+        "commsChannel": "slackline://p2p-core/receiving-dock",
+        "memorySpine": "p2p.purchase_receipt"
+      },
+      "governancePins": {
+        "pin1DeterministicControls": "po.status == ISSUED_OPEN && bol_no != null && packing_slip_no != null",
+        "pin2IndependentReview": "Cross-check physical dock scan against PO open line quantity tolerance",
+        "pin3AuditableEvidence": "Indexed BOL + Shipper PDF hashes linked to grn_no and GR/IR subledger accrual",
+        "pin4NamedHumanApproval": "Receiving Dock Clerk or QA Lead physical sign-off"
+      },
+      "canonicalSteps": [
+        {
+          "stepOrder": 1,
+          "stepType": "1. Manual Step",
+          "title": "Receive Carrier at Dock, Inspect Freight & Capture BOL + Shipper/Packing Slip (or Service Log)",
+          "deterministicRule": "bol_no != null && packing_slip_no != null"
+        },
+        {
+          "stepOrder": 2,
+          "stepType": "2. Function Step",
+          "title": "Index BOL + Shipper PDFs & Stage Goods/Service Receipt Note (GRN) in Savepoint",
+          "deterministicRule": "stage_grn_savepoint(po_no, bol_no, packing_slip_no, scanned_lines)"
+        },
+        {
+          "stepOrder": 3,
+          "stepType": "3. Validation Step",
+          "title": "Verify Received Qty & Lot Against Open PO Line Tolerances",
+          "deterministicRule": "qty_received <= po_line.qty_open * 1.05"
+        },
+        {
+          "stepOrder": 4,
+          "stepType": "4. Business Rule Step",
+          "title": "Post System Receipt (GRN), Update Inventory & Post GR/IR Accrual",
+          "deterministicRule": "post_grn(grn_no) && post_subledger_journal('DR Inventory / CR GR_IR_Accrual')"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "workflowBlockCode": "CWFB-P2P06-3WAY",
+      "catalogFamilyId": "P2P06",
+      "bpsRef": "BPS-101.17",
+      "title": "Workflow #4: Vendor Invoice Capture & Deterministic 3-Way Match",
+      "silverCdmTable": "p2p.ap_invoice_3way_match",
+      "inputContract": "1) PO [po_no] + 2) System Receipt [grn_no + bol_no + packing_slip_no] + 3) Vendor Invoice [inv_no]",
+      "outputContract": "Posted AP Voucher [vch_no, status=READY_FOR_PAYMENT] or Hold Loop L4",
+      "returnLoop": "Loop L4 (Price Variance -> routes to WF #2 Buyer Loop L2; Qty/BOL Variance -> routes to WF #3 Receiving Dock)",
+      "haraSockets": {
+        "humanSeat": "Accounts Payable (AP) Specialist / Controller",
+        "agentHarness": "WA-RECONCILE (3-Way Match Engine)",
+        "commsChannel": "slackline://p2p-core/3way-match-exceptions",
+        "memorySpine": "p2p.ap_invoice_3way_match"
+      },
+      "governancePins": {
+        "pin1DeterministicControls": "abs(inv_unit_price - po_unit_price) / po_unit_price <= 0.02 && price_variance_usd <= 250.00 && inv_qty <= grn_qty_accepted",
+        "pin2IndependentReview": "Zero-LLM deterministic 3-way join across PO, GRN/BOL, and Vendor Invoice",
+        "pin3AuditableEvidence": "Balanced double-entry AP voucher receipt (sum(debits) == sum(credits))",
+        "pin4NamedHumanApproval": "AP Specialist posts under delegated policy AP-DOA-2026.3 (<= 2.0% and <= $250.00); Controller sign-off required above threshold"
+      },
+      "canonicalSteps": [
+        {
+          "stepOrder": 1,
+          "stepType": "1. Manual Step",
+          "title": "Ingest Supplier EDI 810 / Verified Invoice into AP Queue",
+          "deterministicRule": "inv_no != null && vendor_id != null && po_no != null"
+        },
+        {
+          "stepOrder": 2,
+          "stepType": "2. Function Step",
+          "title": "Assemble 3-Way Match Dossier: Join PO x GRN (BOL/Shipper) x Invoice",
+          "deterministicRule": "join_3way_dossier(po_no, grn_no, bol_no, inv_no)"
+        },
+        {
+          "stepOrder": 3,
+          "stepType": "3. Validation Step",
+          "title": "Run Deterministic 3-Way Match Tolerance Check (Price <= 2% and <= $250, Billed Qty <= Accepted GRN Qty)",
+          "deterministicRule": "price_variance_pct <= 0.02 && price_variance_usd <= 250.00 && inv_qty <= grn_qty_accepted"
+        },
+        {
+          "stepOrder": 4,
+          "stepType": "4. Business Rule Step",
+          "title": "Auto-Post Verified AP Voucher or Fire Exception Loop L4 (-> Buyer L2 / Dock)",
+          "deterministicRule": "match_ok ? post_ap_voucher(vch_no, 'READY_FOR_PAYMENT') : route_exception('Loop_L4_AP_Hold')"
+        }
+      ]
+    }
+  ],
+  "shoppableEnterpriseConnectors": [
+    {
+      "connectorId": "sqf_regulatory",
+      "catalogWfbCode": "CWFB-P2P02-SQF",
+      "catalogFamilyId": "P2P02",
+      "bpsRef": "BPS-101.09",
+      "title": "Supplier SQF, FDA/ISO Regulatory & COI Gate",
+      "attachesToBaselineOrders": [
+        1,
+        3
+      ],
+      "wireContract": "C-SQF: qms.vendor_sqf_status == APPROVED",
+      "runtimeMutation": "Versioned overlay injecting Precondition Check [qms.vendor_sqf_status == APPROVED] into WF #1 Step 3 Validation and [coa_lot_verified == true] into WF #3 Step 3 Validation.",
+      "mutationRules": [
+        {
+          "targetOrder": 1,
+          "targetStepOrder": 3,
+          "operation": "INJECT_PRECONDITION_ASSERT",
+          "expression": "qms.vendor_sqf_status == 'APPROVED' && qms.coi_expiration_date > current_date",
+          "onFailureRoute": "HOLD_VENDOR_COMPLIANCE_QUEUE"
+        },
+        {
+          "targetOrder": 3,
+          "targetStepOrder": 3,
+          "operation": "INJECT_PRECONDITION_ASSERT",
+          "expression": "qms.coa_lot_verified == true",
+          "onFailureRoute": "Loop_L3_Quarantine"
+        }
+      ]
+    },
+    {
+      "connectorId": "edi_asn_gateway",
+      "catalogWfbCode": "CWFB-P2P04-EDI",
+      "catalogFamilyId": "P2P04",
+      "bpsRef": "BPS-101.13",
+      "title": "Outbound EDI 850 PO, 855 Ack & Inbound 856 ASN",
+      "attachesToBaselineOrders": [
+        2,
+        3
+      ],
+      "wireContract": "C-EDI: edi.856_asn [sscc_pallet, bol_no]",
+      "runtimeMutation": "Versioned overlay binding EDI 850/855/856 adapter into WF #2 Step 4 and pre-populating WF #3 Step 1 BOL & pallet SSCC fields.",
+      "mutationRules": [
+        {
+          "targetOrder": 2,
+          "targetStepOrder": 4,
+          "operation": "BIND_PROTOCOL_ADAPTER",
+          "expression": "edi.dispatch_850(po_no) && edi.await_855_ack(po_no)",
+          "onFailureRoute": "Loop_L2_PO_Change_Order"
+        },
+        {
+          "targetOrder": 3,
+          "targetStepOrder": 1,
+          "operation": "PREPOPULATE_STEP_FIELDS",
+          "expression": "map_edi_856_to_dock_receipt(sscc_pallet, bol_no, packing_slip_no)",
+          "onFailureRoute": "MANUAL_DOCK_SCAN_FALLBACK"
+        }
+      ]
+    },
+    {
+      "connectorId": "qa_inspection_rtv",
+      "catalogWfbCode": "CWFB-P2P08-RTV",
+      "catalogFamilyId": "P2P08",
+      "bpsRef": "BPS-103.06",
+      "title": "Quality Lab Hold, Quarantine & Return-to-Vendor (RTV Loop L3)",
+      "attachesToBaselineOrders": [
+        3,
+        4
+      ],
+      "wireContract": "Loop L3: wms.quarantine_lock -> rtv_no",
+      "runtimeMutation": "Versioned overlay adding Exception Branch [Loop L3 -> CWFB-P2P08-RTV] on WF #3 Step 3 Validation failure and calculating read-only net payable deduction in WF #4 Step 2.",
+      "mutationRules": [
+        {
+          "targetOrder": 3,
+          "targetStepOrder": 3,
+          "operation": "ADD_EXCEPTION_LOOP_BRANCH",
+          "expression": "if (!qms.coa_lot_verified || qty_damaged > 0) emit_rtv_quarantine(po_no, lot_no)",
+          "onFailureRoute": "CWFB-P2P08-RTV"
+        },
+        {
+          "targetOrder": 4,
+          "targetStepOrder": 2,
+          "operation": "CALCULATE_NET_PAYABLE_DEDUCTION",
+          "expression": "compute_net_voucher_amount(inv_total_usd, active_rtv_debit_memo_total_usd)",
+          "onFailureRoute": "Loop_L4_AP_Hold"
+        }
+      ]
+    },
+    {
+      "connectorId": "treasury_ach_pay",
+      "catalogWfbCode": "CWFB-P2P07-PAY",
+      "catalogFamilyId": "P2P07",
+      "bpsRef": "BPS-101.10",
+      "title": "Dual-Control Treasury Payment Run & GR/IR Clearing",
+      "attachesToBaselineOrders": [
+        4
+      ],
+      "wireContract": "W-08: vch_no [3WAY_OK] -> ach_trace_no",
+      "runtimeMutation": "Versioned overlay chaining WF #4 Exit Event [READY_FOR_PAYMENT] into CWFB-P2P07-PAY S2S deterministic settlement proposal and downstream Enterprise Intelligence Collective (EIC) Gold Medallion Schema GS0004.",
+      "mutationRules": [
+        {
+          "targetOrder": 4,
+          "targetStepOrder": 4,
+          "operation": "CHAIN_POST_COMMIT_EVENT",
+          "expression": "on(vch.status == 'READY_FOR_PAYMENT') -> trigger('CWFB-P2P07-PAY', vch_no) && publish_ei_cube('GS0004')",
+          "onFailureRoute": "TREASURY_EXCEPTION_QUEUE"
+        }
+      ]
+    }
+  ]
+}
